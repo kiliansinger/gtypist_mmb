@@ -243,8 +243,8 @@ Do While Not Eof(#1)
         pressed=Asc(Inkey$)
       Loop Until pressed<>0
       'return space    
-      If pressed=asc("y") or pressed=asc("n") Then
-          if pressed=asc("y") then
+      If pressed=asc("y") or pressed=asc("n") or pressed=asc("Y") or pressed=asc("N") Then
+          if pressed=asc("y") or pressed=asc("Y") then
             yes=1
           else
             no=1
@@ -552,16 +552,16 @@ Do While Not Eof(#1)
           End If
         End If
       Else If esccnt=2 Then
-        If pressed=Asc("r") Then
+        If pressed=Asc("r") or pressed=Asc("R") Then
           esccnt=0
           Seek #1,redrawpos
           Exit Do
         End If
-        If pressed=Asc("n") Then
+        If pressed=Asc("n") or pressed=Asc("N") Then
           esccnt=0
           Exit Do
         End If
-        If pressed=Asc("e") Then
+        If pressed=Asc("e") or pressed=Asc("E") Then
           esccnt=0
           lastlabelcnt=lastlabelcnt-1
           labnum=lastlabel(lastlabelcnt)
