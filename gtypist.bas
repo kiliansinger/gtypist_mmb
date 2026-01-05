@@ -114,11 +114,10 @@ banner$=""
 'print "done scanning labels"
 'seek #1,1
 
-Dim lastlabel$(50)
+Dim lastlabel(50)
 lastlabelcnt=0
-lastlabel$(lastlabelcnt)="" ' "" stands for beginning
+lastlabel(lastlabelcnt)=1 ' "" stands for beginning
 lastlabelcnt=lastlabelcnt+1
-currentlabel$=""
 lastpos=1
 redrawpos=1' the concept of redrawpos is broken 
 menupos=0
@@ -141,7 +140,7 @@ Do While Not Eof(#1)
   If Left$(a$,2)="*:" Then
     'lastlabel$(lastlabelcnt)=trimr$(mid$(a$,3))
     'lastlabelcnt=lastlabelcnt+1
-    currentlabel$=trimr$(Mid$(a$,3))
+    ''currentlabel$=trimr$(Mid$(a$,3))
     Continue do 'labels
   End If
   'goto: G:LABELNAME
@@ -155,7 +154,7 @@ Do While Not Eof(#1)
     Else
       'lastlabel$(lastlabelcnt)=trimr$(mid$(a$,3))
       'lastlabelcnt=lastlabelcnt+1
-      currentlabel$=trimr$(Mid$(a$,3))
+      ''currentlabel$=trimr$(Mid$(a$,3))
       if Left$(a$,2)="G:" or (yes=1 and Left$(a$,2)="Y:") or (no=1 and Left$(a$,2)="N:") then
         Seek #1,labnum
       end if
@@ -223,9 +222,9 @@ Do While Not Eof(#1)
       If pressed=27 Then
         If lastlabelcnt>1 Then
           lastlabelcnt=lastlabelcnt-1
-          labnum=findlabel%(lastlabel$(lastlabelcnt))
+          labnum=lastlabel(lastlabelcnt)
           redrawpos=labnum
-          Print lastlabelcnt,lastlabel$(lastlabelcnt)
+          'Print lastlabelcnt,lastlabel$(lastlabelcnt)
           Seek #1,labnum
           Exit Do
         Else
@@ -565,9 +564,10 @@ Do While Not Eof(#1)
         If pressed=Asc("e") Then
           esccnt=0
           lastlabelcnt=lastlabelcnt-1
-          labnum=findlabel%(lastlabel$(lastlabelcnt))
+          labnum=lastlabel(lastlabelcnt)
           redrawpos=labnum
-          Print lastlabelcnt,lastlabel$(lastlabelcnt)
+          'Print lastlabelcnt,lastlabel(lastlabelcnt)
+          'input x$
           Seek #1,labnum
           Exit Do
         End If
@@ -598,6 +598,7 @@ Do While Not Eof(#1)
   'M only keeps the banner 
   'I is not restored
   If Left$(a$,2)="M:" Then
+    menulastpos=lastpos
     CLS
     txt$=trimlr$(Mid$(a$,3))
     uplabel$=""
@@ -667,8 +668,8 @@ Do While Not Eof(#1)
           Print "label "menulabel(menupos)" does not exists"
           Exit
         Else
-          lastlabel$(lastlabelcnt)=currentlabel$
-          currentlabel$=menulabel(menupos)
+          lastlabel(lastlabelcnt)=menulastpos
+          ''currentlabel$=menulabel(menupos)
           lastlabelcnt=lastlabelcnt+1
           redrawpos=labnum
           Seek #1,labnum
@@ -684,10 +685,10 @@ Do While Not Eof(#1)
           Seek #1,labnum
         Else If lastlabelcnt>1 Then
           lastlabelcnt=lastlabelcnt-1
-          Print lastlabelcnt,lastlabel$(lastlabelcnt)
+          'Print lastlabelcnt,lastlabel$(lastlabelcnt)
           'if lastlabel$(lastlabelcnt)="" then end
-          labnum=findlabel%(lastlabel$(lastlabelcnt))
-          currentlabel$=lastlabel$(lastlabelcnt)
+          labnum=lastlabel(lastlabelcnt)
+          'currentlabel$=lastlabel$(lastlabelcnt)
           redrawpos=labnum
           Seek #1,labnum
           'exit do
