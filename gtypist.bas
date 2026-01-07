@@ -528,170 +528,174 @@ Do While Not Eof(#1)
             End If
           End If
           If (pressed>=32 And pressed<=126) Or (pressed>=200 And pressed<=209) Then
-          'german keyboard
-            If pressed=209 Then
-              pressed=248'circ
-            Else If pressed=201 Then
-              pressed=225'sz
-            Else If pressed=94 Then
-              '^
-              deadkey=pressed
-              pressed=0
-            Else If pressed=96 Then
-              'accent grave
-              deadkey=pressed
-              pressed=0
-            Else If pressed=202 Then
-              pressed=0'accent aigu
-              deadkey=239
-            Else If pressed=203 Then
-              pressed=129'ue
-            Else If pressed=204 Then
-              pressed=154'UE
-            Else If pressed=205 Then
-             pressed=148'oe
-            Else If pressed=206 Then
-              pressed=153'OE
-            Else If pressed=207 Then
-              pressed=132'ae
-            Else If pressed=208 Then
-              pressed=142'AE
-            Else
-              If deadkey=0 Then
-                If KeyDown(7)=16 Then
-                  If pressed=Asc("e") Then
-                    'euro
-                    pressed=213
-                  Else If pressed=Asc("3") Then
-                    'small 3
-                    pressed=252
-                  Else If pressed=Asc("2") Then
-                    'small 2
-                    pressed=253
-                  Else If pressed=Asc("m") Then
-                    'small 2
-                    pressed=230
-                  End If
-                End If
+            If MM.Info(option keyboard)="GR" Then
+              'german keyboard
+              If pressed=200 Then
+                pressed=245
+              Else If pressed=209 Then
+                pressed=248'circ
+              Else If pressed=201 Then
+                pressed=225'sz
+              Else If pressed=94 Then
+                '^
+                deadkey=pressed
+                pressed=0
+              Else If pressed=96 Then
+                'accent grave
+                deadkey=pressed
+                pressed=0
+              Else If pressed=202 Then
+                pressed=0'accent aigu
+                deadkey=239
+              Else If pressed=203 Then
+                pressed=129'ue
+              Else If pressed=204 Then
+                pressed=154'UE
+              Else If pressed=205 Then
+              pressed=148'oe
+              Else If pressed=206 Then
+                pressed=153'OE
+              Else If pressed=207 Then
+                pressed=132'ae
+              Else If pressed=208 Then
+                pressed=142'AE
               Else
-                'deadkey pressed previously
-                If pressed=Asc(" ") Then
-                  pressed=deadkey
-                Else If pressed=Asc("a") Then
-                  If deadkey=94 Then
-                    '^
-                    pressed=131
-                  Else If deadkey=96 Then
-                    'accent gravee
-                    pressed=133
-                  Else If deadkey=239 Then
-                    'accent aigu
-                    pressed=160
+                If deadkey=0 Then
+                  If KeyDown(7)=16 Then
+                    If pressed=Asc("e") Then
+                      'euro
+                      pressed=213
+                    Else If pressed=Asc("3") Then
+                      'small 3
+                      pressed=252
+                    Else If pressed=Asc("2") Then
+                      'small 2
+                      pressed=253
+                    Else If pressed=Asc("m") Then
+                      'small 2
+                      pressed=230
+                    End If
                   End If
-                Else If pressed=Asc("A") Then
-                  If deadkey=94 Then
-                    '^
-                    pressed=182
-                  Else If deadkey=96 Then
-                    'accent gravee
-                    pressed=183
-                  Else If deadkey=239 Then
-                    'accent aigu
-                    pressed=181
-                  End If
-
-                Else If pressed=Asc("e") Then
+                Else
+                  'deadkey pressed previously
+                  If pressed=Asc(" ") Then
+                    pressed=deadkey
+                  Else If pressed=Asc("a") Then
                     If deadkey=94 Then
-                    '^
-                    pressed=136
-                  Else If deadkey=96 Then
-                    'accent gravee
-                    pressed=138
-                  Else If deadkey=239 Then
-                    'accent aigu
-                    pressed=130
-                  End If
-                Else If pressed=Asc("E") Then
-                  If deadkey=94 Then
-                    '^
-                    pressed=210
-                  Else If deadkey=96 Then
-                    'accent gravee
-                    pressed=212
-                  Else If deadkey=239 Then
-                    'accent aigu
-                    pressed=144
-                  End If
+                      '^
+                      pressed=131
+                    Else If deadkey=96 Then
+                      'accent gravee
+                      pressed=133
+                    Else If deadkey=239 Then
+                      'accent aigu
+                      pressed=160
+                    End If
+                  Else If pressed=Asc("A") Then
+                    If deadkey=94 Then
+                      '^
+                      pressed=182
+                    Else If deadkey=96 Then
+                      'accent gravee
+                      pressed=183
+                    Else If deadkey=239 Then
+                      'accent aigu
+                      pressed=181
+                    End If
 
-                Else If pressed=Asc("i") Then
-                  If deadkey=94 Then
-                    '^
-                    pressed=140
-                  Else If deadkey=96 Then
-                    'accent gravee
-                    pressed=141
-                  Else If deadkey=239 Then
-                    'accent aigu
-                    pressed=161
-                  End If
-                Else If pressed=Asc("I") Then
-                  If deadkey=94 Then
-                    '^
-                    pressed=215
-                  Else If deadkey=96 Then
-                    'accent gravee
-                    pressed=222
-                  Else If deadkey=239 Then
-                    'accent aigu
-                    pressed=214
-                  End If
-                Else If pressed=Asc("o") Then
-                  If deadkey=94 Then
-                    '^
-                    pressed=147
-                  Else If deadkey=96 Then
-                    'accent gravee
-                    pressed=149
-                  Else If deadkey=239 Then
-                    'accent aigu
-                    pressed=162
-                  End If
-                Else If pressed=Asc("O") Then
-                  If deadkey=94 Then
-                    '^
-                    pressed=226
-                  Else If deadkey=96 Then
-                    'accent gravee
-                    pressed=227
-                  Else If deadkey=239 Then
-                    'accent aigu
-                    pressed=224
-                  End If
-                Else If pressed=Asc("u") Then
-                  If deadkey=94 Then
-                    '^
-                    pressed=150
-                  Else If deadkey=96 Then
-                    'accent gravee
-                    pressed=151
-                  Else If deadkey=239 Then
-                    'accent aigu
-                    pressed=163
-                  End If
-                Else If pressed=Asc("U") Then
-                  If deadkey=94 Then
-                    '^
-                    pressed=234
-                  Else If deadkey=96 Then
-                    'accent gravee
-                    pressed=235
-                  Else If deadkey=239 Then
-                    'accent aigu
-                    pressed=233
+                  Else If pressed=Asc("e") Then
+                      If deadkey=94 Then
+                      '^
+                      pressed=136
+                    Else If deadkey=96 Then
+                      'accent gravee
+                      pressed=138
+                    Else If deadkey=239 Then
+                      'accent aigu
+                      pressed=130
+                    End If
+                  Else If pressed=Asc("E") Then
+                    If deadkey=94 Then
+                      '^
+                      pressed=210
+                    Else If deadkey=96 Then
+                      'accent gravee
+                      pressed=212
+                    Else If deadkey=239 Then
+                      'accent aigu
+                      pressed=144
+                    End If
+
+                  Else If pressed=Asc("i") Then
+                    If deadkey=94 Then
+                      '^
+                      pressed=140
+                    Else If deadkey=96 Then
+                      'accent gravee
+                      pressed=141
+                    Else If deadkey=239 Then
+                      'accent aigu
+                      pressed=161
+                    End If
+                  Else If pressed=Asc("I") Then
+                    If deadkey=94 Then
+                      '^
+                      pressed=215
+                    Else If deadkey=96 Then
+                      'accent gravee
+                      pressed=222
+                    Else If deadkey=239 Then
+                      'accent aigu
+                      pressed=214
+                    End If
+                  Else If pressed=Asc("o") Then
+                    If deadkey=94 Then
+                      '^
+                      pressed=147
+                    Else If deadkey=96 Then
+                      'accent gravee
+                      pressed=149
+                    Else If deadkey=239 Then
+                      'accent aigu
+                      pressed=162
+                    End If
+                  Else If pressed=Asc("O") Then
+                    If deadkey=94 Then
+                      '^
+                      pressed=226
+                    Else If deadkey=96 Then
+                      'accent gravee
+                      pressed=227
+                    Else If deadkey=239 Then
+                      'accent aigu
+                      pressed=224
+                    End If
+                  Else If pressed=Asc("u") Then
+                    If deadkey=94 Then
+                      '^
+                      pressed=150
+                    Else If deadkey=96 Then
+                      'accent gravee
+                      pressed=151
+                    Else If deadkey=239 Then
+                      'accent aigu
+                      pressed=163
+                    End If
+                  Else If pressed=Asc("U") Then
+                    If deadkey=94 Then
+                      '^
+                      pressed=234
+                    Else If deadkey=96 Then
+                      'accent gravee
+                      pressed=235
+                    Else If deadkey=239 Then
+                      'accent aigu
+                      pressed=233
+                    End If
                   End If
                 End If
+                deadkey=0
               End If
-              deadkey=0
             End If
             If pressed<>0 Then
               If Mid$(lines(linetype),xpos,1)=Chr$(pressed) Then
