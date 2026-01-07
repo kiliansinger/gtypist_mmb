@@ -1,5 +1,5 @@
-# created by tt2typ.pl from /home/felix/src/tipptrainer-0.4/data/german
-# on Sun Feb  2 18:27:48 CET 2003
+# created by tt2typ.pl from /home/felix/src/tipptrainer-0.6.0/data/german
+# on Do 30. Jun 20:24:34 CEST 2011
 # tt2typ.pl is part of gtypist (http://www.gnu.org/software/gtypist/)
 # tipptrainer can be found at http://www.pingos.schulnetz.org/tipptrainer
 # If you have suggestions about these lessons, write to
@@ -9,13 +9,13 @@ G:MENU
 
 *:S_LESSON1
 K:12:MENU
-B:           Lesson 1: Die Grundreihe a s d f - - j k l ï¿½
+B:           Lesson 1: Die Grundreihe a s d f - - j k l ”
 T:
  : Schau noch einmal die Stellung der Finger an. Nimm die
- : Grundstellung ein. ï¿½berprï¿½fe ob "g" und "h" frei sind! Die
- : Return Taste betï¿½tigst du mit dem kleinen Finger der Rechten
+ : Grundstellung ein. šberprfe ob "g" und "h" frei sind! Die
+ : <Return>-Taste bet„tigst du mit dem kleinen Finger der rechten
  : Hand. Sprich laut mit! Schau nicht auf die Tasten! Die Daumen
- : betï¿½tigen wahlweise rechts oder links (nicht beide) die
+ : bet„tigen wahlweise rechts oder links (nicht beide) die
  : Leertaste.
 *:LESSON1_D1
 I:(1)
@@ -50,48 +50,47 @@ D:ssl ssl lss lss lss lss lss lss lss lss lss ssl ssl ssl ssl
 *:LESSON1_D6
 I:(6)
 D:lll sss lsl lll lsl sss lsl ssl ssl lsl lls lll sss lsl ssl
- :aï¿½ ï¿½a aï¿½ aï¿½ ï¿½a aï¿½ ï¿½a ï¿½a aï¿½ aï¿½ aï¿½ ï¿½a ï¿½a ï¿½a aï¿½ aï¿½ ï¿½a ï¿½a aï¿½ aï¿½
- :ï¿½a aa ï¿½ï¿½ aï¿½ ï¿½ï¿½ aa ï¿½ï¿½ ï¿½ï¿½ aa ï¿½a ï¿½a ï¿½a ï¿½a aï¿½ aï¿½ ï¿½ï¿½ aa ï¿½ï¿½ aï¿½ ï¿½a
- :aï¿½a ï¿½aï¿½ aï¿½a aï¿½a ï¿½aï¿½ aï¿½a aaï¿½ aaï¿½ aaï¿½ ï¿½ï¿½a aaï¿½ ï¿½aa ï¿½aï¿½ ï¿½ï¿½a aï¿½a
+ :a” ”a a” a” ”a a” ”a ”a a” a” a” ”a ”a ”a a” a” ”a ”a a” a”
+ :”a aa ”” a” ”” aa ”” ”” aa ”a ”a ”a ”a a” a” ”” aa ”” a” ”a
+ :a”a ”a” a”a a”a ”a” a”a aa” aa” aa” ””a aa” ”aa ”a” ””a a”a
 *:LESSON1_D7
 I:(7)
-D:ï¿½ï¿½ï¿½ aaa aï¿½a ï¿½ï¿½ï¿½ aï¿½a aaa ï¿½aï¿½ aï¿½a aï¿½a ï¿½aï¿½ aï¿½a aï¿½a ï¿½aï¿½ aï¿½a ï¿½aï¿½
- :aï¿½a ï¿½ï¿½ï¿½ aaa aï¿½a aï¿½a aï¿½a ï¿½aï¿½ aï¿½a aï¿½a aï¿½a ï¿½aï¿½ aï¿½a aï¿½a ï¿½ï¿½ï¿½ aï¿½a
- :aaï¿½ aaï¿½ aaï¿½ ï¿½aï¿½ aï¿½a ï¿½ï¿½ï¿½ aï¿½a ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½a ï¿½ï¿½a aaï¿½ ï¿½aï¿½ aï¿½a ï¿½ï¿½a
- :aï¿½a aaa ï¿½aï¿½ aï¿½ï¿½ ï¿½ï¿½a aï¿½ï¿½ ï¿½ï¿½a aaï¿½ ï¿½aa aï¿½ï¿½ ï¿½aa aï¿½a ï¿½aï¿½ aaï¿½ ï¿½aa
+D:””” aaa a”a ””” a”a aaa ”a” a”a a”a ”a” a”a a”a ”a” a”a ”a”
+ :a”a ””” aaa a”a a”a a”a ”a” a”a a”a a”a ”a” a”a a”a ””” a”a
+ :aa” aa” aa” ”a” a”a ””” a”a ””” ””” ””a ””a aa” ”a” a”a ””a
+ :a”a aaa ”a” a”” ””a a”” ””a aa” ”aa a”” ”aa a”a ”a” aa” ”aa
 *:LESSON1_D8
 I:(8)
-D:asdf jklï¿½ asdf jklï¿½ asdf jklï¿½ ï¿½lkj fdsa ï¿½lkj fdsa asdf jklï¿½
- :asdf ï¿½lkj asdf ï¿½lkj asdf ï¿½lkj asdf ï¿½lkj asdf ï¿½lkj asdf jklï¿½
+D:asdf jkl” asdf jkl” asdf jkl” ”lkj fdsa ”lkj fdsa asdf jkl”
+ :asdf ”lkj asdf ”lkj asdf ”lkj asdf ”lkj asdf ”lkj asdf jkl”
  :askj asjk askj askj asjk asjk asjk asjk asjk askj askj asjk
- :lsï¿½a lsï¿½a lsï¿½a aï¿½sl aï¿½sl aï¿½sl aï¿½sl aï¿½sl aï¿½sl aï¿½sl aï¿½sl aï¿½sl
+ :ls”a ls”a ls”a a”sl a”sl a”sl a”sl a”sl a”sl a”sl a”sl a”sl
 *:LESSON1_D9
 I:(9)
-D:alsï¿½ aï¿½sl lsï¿½a lï¿½ls lï¿½ss skï¿½k lsï¿½a slï¿½a lï¿½al ï¿½lsï¿½ slaï¿½ sï¿½al
- :aï¿½sk alsk aï¿½ls aï¿½ls aï¿½ld aï¿½sl aï¿½sk asï¿½k ï¿½ska alï¿½k asld ï¿½skï¿½
- :dask klsa klsd dlsa ï¿½ldk dkls ï¿½lsa klsa klas lkas slak skal
+D:als” a”sl ls”a l”ls l”ss sk”k ls”a sl”a l”al ”ls” sla” s”al
+ :a”sk alsk a”ls a”ls a”ld a”sl a”sk as”k ”ska al”k asld ”sk”
+ :dask klsa klsd dlsa ”ldk dkls ”lsa klsa klas lkas slak skal
  :fksk dksl jfjf skdj dsaj jafj jsdj fjdk jfkd fjdk fjdk fjdk
 *:LESSON1_D10
 I:(10)
-D:fkds kldj jkld fdsa fdsa fdsa fdsa jkls sakd dsaï¿½ jkdk djfk
- :slaï¿½ aljs sdkf dkls kkls llsk sï¿½ak dlsd sldl dlsl dsld dlsl
- :dlld ldld sï¿½sl alsï¿½ dlfk fldk fkld kfal fals lssa lass lass
+D:fkds kldj jkld fdsa fdsa fdsa fdsa jkls sakd dsa” jkdk djfk
+ :sla” aljs sdkf dkls kkls llsk s”ak dlsd sldl dlsl dsld dlsl
+ :dlld ldld s”sl als” dlfk fldk fkld kfal fals lssa lass lass
  :lsls ldfj kalf klas lkas jdks lsak kdfj alsj lkdf kjja jaja
 *:LESSON1_D11
 I:(11)
 D:falk lfds fall lfds jfks fall falk fall fals slak dlsa lsdf
- :jkak kaks lkak ksda kdls lsdf dsaj kjlj lï¿½kd fksl slkd jkls
- :ffkd kdkk dkks saak sask ssas dsas klï¿½l dsas lkkl lkjk lkjl
- :aï¿½sl ssas llkï¿½ kkï¿½k ï¿½lkj lkjl ï¿½lkï¿½ ï¿½lï¿½a ï¿½lks ï¿½klj jlkk lkds
+ :jkak kaks lkak ksda kdls lsdf dsaj kjlj l”kd fksl slkd jkls
+ :ffkd kdkk dkks saak sask ssas dsas kl”l dsas lkkl lkjk lkjl
+ :a”sl ssas llk” kk”k ”lkj lkjl ”lk” ”l”a ”lks ”klj jlkk lkds
 G:E_LESSON1
 
 *:S_LESSON2
 K:12:MENU
 B:         Lesson 2: Erste Wortbildungen mit der Grundreihe
 T:
- : Lies laut mit! ï¿½berprï¿½fe noch einmal die Hand- 
+ : Lies laut mit! šberprfe noch einmal die Hand-
  : und Fingerhaltung.
- : 
 *:LESSON2_D1
 I:(1)
 D:sla las laa aal sla lsa las sas lsa laa las all als ass als
@@ -102,45 +101,45 @@ D:sla las laa aal sla lsa las sas lsa laa las all als ass als
 I:(2)
 D:sls lsl lal sas lls ala lal las asl las sal las als all sla
  :als all las als all las als all las all all als als las las
- :fad das sad lï¿½s las lad lad aal fas kal sal fas dsa dks fda
- :fall lass kalk lass klas salï¿½ salk laï¿½s llsa llsa ï¿½lsa lsaï¿½
+ :fad das sad l”s las lad lad aal fas kal sal fas dsa dks fda
+ :fall lass kalk lass klas sal” salk la”s llsa llsa ”lsa lsa”
 *:LESSON2_D3
 I:(3)
-D:ï¿½sal lï¿½ss ï¿½sks ï¿½skl ï¿½slk lsal lï¿½as klsa lï¿½ls lï¿½ls klsa klï¿½s
+D:”sal l”ss ”sks ”skl ”slk lsal l”as klsa l”ls l”ls klsa kl”s
  :kalk kalk fall fall falk lass lssa lass kalk falk fass sass
- :safd safd klï¿½a aï¿½lk lsal lsas slas lsls fjdl alsa jaja jdld
+ :safd safd kl”a a”lk lsal lsas slas lsls fjdl alsa jaja jdld
  :jldd kjsk klas kalk saal lass fakl sall lall ladd ladd dsal
 *:LESSON2_D4
 I:(4)
 D:falk kalk falk kalk saal kalk falk saal kalk fall saal fall
- :falk fall fals kall kalk saal falk lass kalk lï¿½ss lass fall
- :falk kalk fall lï¿½ss kalk fall saal fall lï¿½ss saal fall falk
- :lass fall lass falk kalk saal fall lï¿½ss kalk kalk saal fall
+ :falk fall fals kall kalk saal falk lass kalk l”ss lass fall
+ :falk kalk fall l”ss kalk fall saal fall l”ss saal fall falk
+ :lass fall lass falk kalk saal fall l”ss kalk kalk saal fall
 *:LESSON2_D5
 I:(5)
 D:falls kafka kajak kajak falls falls kafka kajak kajaj kafka
  :kafka falls kajak falls kafka falls kajak kafka falls kajak
  :falls als falk kalk kafka das all das lass das las als kalk
- :ï¿½l als lï¿½ss kafka kajak ï¿½l als all falk lï¿½ss lass las kajak
+ :”l als l”ss kafka kajak ”l als all falk l”ss lass las kajak
 *:LESSON2_D6
 I:(6)
-D:all das ï¿½d all dass das ï¿½l kafka lass das ja kalk ï¿½l ja las
+D:all das ”d all dass das ”l kafka lass das ja kalk ”l ja las
  :all das saal falk kalk kajak kafka saal falls das dass lass
- :als all das ï¿½l falls all das ï¿½l ja als all das ï¿½l kafka las
- :falls falk all das las das ï¿½l als all kalk fall saal las ja
+ :als all das ”l falls all das ”l ja als all das ”l kafka las
+ :falls falk all das las das ”l als all kalk fall saal las ja
 *:LESSON2_D7
 I:(7)
-D:ja ja sass da als all das ï¿½l kafka las falk sass da als all
- :das ï¿½l lass das all kafka las all falls all das ï¿½l as ja da
- :da das alls kafka las kalk fall saal falls all das ï¿½l ja ja 
+D:ja ja sass da als all das ”l kafka las falk sass da als all
+ :das ”l lass das all kafka las all falls all das ”l as ja da
+ :da das alls kafka las kalk fall saal falls all das ”l ja ja 
 G:E_LESSON2
 
 *:S_LESSON3
 K:12:MENU
 B:               Lesson 3: Die Buchstaben "e" und "i"
 T:
- : Taste die neuen Zeichen ein paar mal vor, bevor Du die Lektion beginnst. 
- : Die beiden Mittelfinger sind fï¿½r "e" und "i" zustï¿½ndig. Sieh dabei 
+ : Taste die neuen Zeichen ein paar mal vor, bevor Du die Lektion beginnst.
+ : Die beiden Mittelfinger sind fr "e" und "i" zust„ndig. Sieh dabei 
  : nicht auf die Tastatur!
 *:LESSON3_D1
 I:(1)
@@ -153,7 +152,7 @@ I:(2)
 D:kei iek kii kee eke ike adi ida ede ese see ise isa sai sae
  :lee lei lie lle ill eel sea eas ase lea kea jea sik aik eik
  :kade lade jade lade kiss lies like daks jade jedi kadi sadi
- :kess lass lï¿½ss lies siel alle fell fiel fail siel fiel feil
+ :kess lass l”ss lies siel alle fell fiel fail siel fiel feil
 *:LESSON3_D3
 I:(3)
 D:seil lies keil like feil fiel jail dail das is fis ais lief
@@ -162,8 +161,8 @@ D:seil lies keil like feil fiel jail dail das is fis ais lief
  :siele lalle falle kalle seile feile leise keile lalle falle
 *:LESSON3_D4
 I:(4)
-D:alles kalles elle felle fiele ï¿½se seile keile fiele die eis
- :lasse fasse kasse sasse lï¿½se sie lasse fasse kasse asse die
+D:alles kalles elle felle fiele ”se seile keile fiele die eis
+ :lasse fasse kasse sasse l”se sie lasse fasse kasse asse die
  :isa kies alias salsa else fels als je ja sass iss kiss esse
  :lasse kasse kaffee affe safe lief ilse kleie eise seile sie
 *:LESSON3_D5
@@ -176,7 +175,7 @@ D:ade alle lies alias alles falle felle kalle kill keil kille
 I:(6)
 D:jail file alias kiss sed deal seal lease fade ill fill feel
  :kaffee fiel alles eile kalle feile sie seil seile kasse eis
- :ja sei da fallada kafka saal ï¿½le ï¿½se als alles fiel siel es
+ :ja sei da fallada kafka saal ”le ”se als alles fiel siel es
  :lade es fade saal es das fass es ja fiese liese lies dallas
 *:LESSON3_D7
 I:(7)
@@ -188,13 +187,13 @@ G:E_LESSON3
 K:12:MENU
 B:               Lesson 4: Die Buchstaben "g" und "h"
 T:
- : Taste ein paar mal nach den neuen Tasten, bevor Du die Lektion beginnst. 
- : Achte auf einen gleichmï¿½ï¿½igen Anschlag. Schreibmaschienen brauchen das, 
- : um die Typenhebel richtig niederschlagen zu lassen, am Computer kommt es 
- : bei ungleichmï¿½ï¿½igem Anschlag schnell zu Zeichenvertauschungen, wie z.B. 
+ : Taste ein paar mal nach den neuen Tasten, bevor Du die Lektion beginnst.
+ : Achte auf einen gleichm„áigen Anschlag. Schreibmaschinen brauchen das,
+ : um die Typenhebel richtig niederschlagen zu lassen Am Computer kommt es
+ : bei ungleichm„áigem Anschlag schnell zu Zeichenvertauschungen, wie z.B. 
  : "ie" statt "ei". 
  : Sieh beim Schreiben nicht auf die Tastatur! Sprich die Lektion laut mit, 
- : fï¿½r die Leertaste sprich:"leer".
+ : fr die Leertaste sprich: "leer".
 *:LESSON4_D1
 I:(1)
 D:fgf fgf jhj jhj fgf jhj jhj fgf jhj fgf jhj fgf jhj fgf jhj
@@ -204,15 +203,15 @@ D:fgf fgf jhj jhj fgf jhj jhj fgf jhj fgf jhj fgf jhj fgf jhj
 *:LESSON4_D2
 I:(2)
 D:jag ajg jag ajg ajg gaj jag jga jga gja fgj gjf ajf agj ajg
- :ï¿½jh hjï¿½ hjï¿½ ï¿½jh jï¿½h jï¿½h hjï¿½ jhï¿½ ï¿½jh ï¿½jh jï¿½h jï¿½h jhï¿½ ï¿½gï¿½ ï¿½hï¿½
- :afg ï¿½hj agh ï¿½hg agj ï¿½hj gaj hï¿½j gaj hï¿½g hag ï¿½gh ï¿½hg ahg ï¿½hh
+ :”jh hj” hj” ”jh j”h j”h hj” jh” ”jh ”jh j”h j”h jh” ”g” ”h”
+ :afg ”hj agh ”hg agj ”hj gaj h”j gaj h”g hag ”gh ”hg ahg ”hh
  :haag haff haag haff haag haff fahl half fahl half hasl lasa
 *:LESSON4_D3
 I:(3)
 D:kahl lags slag glas alga gala agfa haff haag glas lags gasa
  :gesa sage hage jage fehl fahl hege gehe hege gehe sehe hase
  :hass fahl kahl kehl kiel geil lieg heil hies dega gade jage
- :jagd jï¿½gh hals gels gisa lï¿½se geis sieg igel lieg lage gala
+ :jagd j”gh hals gels gisa l”se geis sieg igel lieg lage gala
 *:LESSON4_D4
 I:(4)
 D:egel flegel fahles kahles sage es kegel segel jagd laage he
@@ -228,7 +227,7 @@ D:geige feige liege fliege siege diehle fiele galle falle heg
 *:LESSON4_D6
 I:(6)
 D:she is his he is she lies es gase gas hass fass lass kahles
- :gisela hï¿½hle sah diese hï¿½hle geï¿½le hase jade jage lage heil
+ :gisela h”hle sah diese h”hle ge”le hase jade jage lage heil
  :hadi sage lass das fass dies seidige kleid gehe hege gelege
  :geklage gelage sage die sage gejage klage felge helge leide
 G:E_LESSON4
@@ -237,8 +236,8 @@ G:E_LESSON4
 K:12:MENU
 B:               Lesson 5: Die Buchstaben "w" und "o"
 T:
- : Die Tasten "w" und "o" werden mit den Ringfingern gegriffen. 
- : Ertaste sie erst ein paar Mal, bevor Du beginnst. Nicht auf 
+ : Die Tasten "w" und "o" werden mit den Ringfingern gegriffen.
+ : Ertaste sie erst ein paar mal, bevor Du beginnst. Nicht auf 
  : die Tasten schauen! Lies laut mit!
 *:LESSON5_D1
 I:(1)
@@ -256,7 +255,7 @@ D:gold geld soll will kilo lose kose wald jagd wage lage lego
 I:(3)
 D:waage wiege agil wog was wieso wald waldig wilde kilo wieso
  :jage wildes wild wald was sah sie wie log sie was wieso log
- :isa die wiese lag weg wie weil sie wo sowieso lolï¿½ ï¿½le ï¿½lig 
+ :isa die wiese lag weg wie weil sie wo sowieso lol” ”le ”lig 
  :loewe leise lose gosse gasse hose dose diese woge loge wade
 *:LESSON5_D4
 I:(4)
@@ -268,8 +267,8 @@ D:wash fish who is who was whose fool while whole who goes he
 I:(5)
 D:die gosse sie wog je dose kaffee das was sie sah die kladde
  :sie fiel da die wade kafka fade das die lade los es wog was 
- :kafka las die kladde als was fiel was wog das lï¿½ss wege weg
- :ï¿½le die waage das wog kafka las wie las kafka die kladde da
+ :kafka las die kladde als was fiel was wog das l”ss wege weg
+ :”le die waage das wog kafka las wie las kafka die kladde da
 *:LESSON5_D6
 I:(6)
 D:wieso lass sie wog diese kasse affe wog die waage log sowas
@@ -281,14 +280,14 @@ G:E_LESSON5
 K:12:MENU
 B:               Lesson 6: Die Buchstaben "r" und "u"
 T:
- : Jetzt noch einmal ein paar Wortï¿½bungen! Diese Wortkombinationen 
- : ergeben noch immer keinen Sinn, aber es sind hin und wieder 
- : doppelte L
+ : Jetzt noch einmal ein paar Wortbungen! Diese Wortkombinationen
+ : ergeben noch immer keinen Sinn. Es sind hin und wieder
+ : doppelte Leerzeichen im Text.
 *:LESSON6_D1
 I:(1)
 D:frf frf juj juj juj frf fuj juf uuj uuj fuf uuf ruu uru ufr
- :fra aua fau fra fru jau jar dau dar sau sua sar sra ï¿½uï¿½ rï¿½r
- :ded kik juj ded frf ase ras juk kuj fuj ruf dei ser usl ï¿½re
+ :fra aua fau fra fru jau jar dau dar sau sua sar sra ”u” r”r
+ :ded kik juj ded frf ase ras juk kuj fuj ruf dei ser usl ”re
  :war wor rio rus ras ral rel ril rol ole oli koi oki dok rod
 *:LESSON6_D2
 I:(2)
@@ -310,7 +309,7 @@ D:rehe jage wild gewehr erlege kugel wars kugel flog reh floh
  :wer lief der rief regel gewehr soll der hase wohl war es da
 *:LESSON6_D5
 I:(5)
-D:hallo wer war diese halli hallo hallï¿½le hallali hirse hafer
+D:hallo wer war diese halli hallo hall”le hallali hirse hafer
  :rede lies sage wage rufe lusiese sie war es kuss fred gelle
  :wars ulli sage es liese war es dieses haus klaus rede ruhig
  :ruhe wer da rief das lief so weil das haus ruhig lag es war
@@ -318,7 +317,7 @@ D:hallo wer war diese halli hallo hallï¿½le hallali hirse hafer
 I:(6)
 D:wage es war dusselig es war eisig weil luise da war egal du
  :will es kalle oder ole hose aus wolle kleid seidig haus aus 
- :lï¿½ss fiel kafka was er rede ruhig lies es ruhig aller regel
+ :l”ss fiel kafka was er rede ruhig lies es ruhig aller regel
  :das regal das fiel der saal war leer wars fred wars ole was
 *:LESSON6_D7
 I:(7)
@@ -327,11 +326,11 @@ G:E_LESSON6
 
 *:S_LESSON7
 K:12:MENU
-B:              Lesson 7: Wortï¿½bungen mit dem Bekannten
+B:             Lesson 7: Wortbungen mit dem Bekannten
 T:
- : Jetzt noch einmal ein paar Wortï¿½bungen! Diese Wortkombinationen 
- : ergeben noch immer keinen Sinn, aber es sind hin und wieder 
- : doppelte Leerzeichen im Text, damit kï¿½nnen wir das spï¿½ter 
+ : Jetzt noch einmal ein paar Wortbungen! Diese Wortkombinationen
+ : ergeben noch immer keinen Sinn. Es sind hin und wieder
+ : doppelte Leerzeichen im Text. Damit k”nnen wir das sp„ter
  : hinzukommende Komma ersetzen. Achte in diesem Text darauf, 
  : dass nicht mehr jede Zeile 60 Zeichen lang ist. 
 *:LESSON7_D1
@@ -380,8 +379,8 @@ T:
 I:(1)
 D:ft ft ft ft ft ft jz jz jz jz jz jz ft jz ft jz ft jz ft jz
  :ftf jzj ftf jzj ftz jzt ftz jtz fzt jtz ftz fjt fjz fjt fjz
- :dzd fzf dzf dzd dzd szs aza ata sts sts ktk tlt ltl ï¿½tï¿½ ï¿½zi
- :zï¿½g zï¿½ge zog log lok teig teil tide tage tag zarge zag zuse
+ :dzd fzf dzf dzd dzd szs aza ata sts sts ktk tlt ltl ”t” ”zi
+ :z”g z”ge zog log lok teig teil tide tage tag zarge zag zuse
 *:LESSON8_D2
 I:(2)
 D:ast last hast fast hatz fatz latz katz katze satz satz jazz
@@ -393,28 +392,28 @@ I:(3)
 D:zeit seit der zeit zeisig ziele zahl zahle dutze kratze tue
  :zarge zulu taz fratz jazz katze kurzer kurz letzte lust las
  :zog er gefasst lasst trage frage trug zur hetze falz fetter
- :herr fette ï¿½le zola ritze der herr zog das heraus gezielter
+ :herr fette ”le zola ritze der herr zog das heraus gezielter
 *:LESSON8_D4
 I:(4)
 D:welt erde orte worte warte zarte witze werte harte karte zu
  :der zug zog er flog sie lief es geht halt das  halt auf zoo
  :wetter wettere watte lagert wagt es gelegt gelege fegt dies
- :lï¿½ss fiel saugt es auf fegt es auf liest er was  er las das
+ :l”ss fiel saugt es auf fegt es auf liest er was  er las das
 *:LESSON8_D5
 I:(5)
 D:wieso liest er das wer sagt etwas gesagt getagt gewagt erze
- :lï¿½st es auf gelï¿½st geht er wer wagt geht wer zaudert steht 
+ :l”st es auf gel”st geht er wer wagt geht wer zaudert steht 
  :fast gewagt ist gesagt tag tue eis taut auf zahl das eis da
  :kafka liest der titel ist das tier war da weil dies tier da
 *:LESSON8_D6
 I:(6)
 D:war  fiel der krug alles lief  half  saugte sagte rief geht
- :also daher wer geht geht jetzt er liest die kladde wer hï¿½rt
- :da zu er hï¿½r sie hï¿½rt kafka liest zola elise fragt fritz da
- :der was hï¿½rte wartete kafka sagt zu elise geht jetzt frau
+ :also daher wer geht geht jetzt er liest die kladde wer h”rt
+ :da zu er h”r sie h”rt kafka liest zola elise fragt fritz da
+ :der was h”rte wartete kafka sagt zu elise geht jetzt frau
 *:LESSON8_D7
 I:(7)
-D:es stï¿½rt wer da fragt die woge erstarrt alles stille 
+D:es st”rt wer da fragt die woge erstarrt alles stille 
  :elise geht es war kafkas wille sie geht als der krug grade
  :fiel der saft lief der autor rief alles eilte dazu jetzt 
  :war ruh 
@@ -422,12 +421,12 @@ G:E_LESSON8
 
 *:S_LESSON9
 K:12:MENU
-B:          Lesson 9: Hï¿½ufigkeitswï¿½rter - Schnelltippï¿½bung
+B:         Lesson 9: H„ufigkeitsw”rter - Schnelltippbung
 T:
- : Hï¿½ufigkeitswï¿½rter: ï¿½be diese Lektion mehrfach! 
- : Die Anschlaggeschwindigkeit in der Lektionsauswertung 
- : solltest sich langsam erhï¿½hen. Versuche diese Lektion 
- : mit Null Fehlern durchzuschreiben! 
+ : H„ufigkeitsw”rter: šbe diese Lektion mehrfach!
+ : Die Anschlaggeschwindigkeit in der Lektionsauswertung
+ : sollte sich langsam erh”hen. Versuche diese Lektion
+ : mit Null Fehlern durchzuschreiben!
 *:LESSON9_D1
 I:(1)
 D:der die das wer wie was wo der die das wer wie was wo da so
@@ -462,7 +461,7 @@ D:alles was er will jeder hat was er will jeder ist wer wieso
 I:(6)
 D:wo geht es zur see wie geht es heute geht es gut es geht so
  :so wie das geht geht es gut gut gesagt der fluss das wasser
- :lï¿½se das seil jetzt ist es so weit auf dieser welt sagt sie
+ :l”se das seil jetzt ist es so weit auf dieser welt sagt sie
  :alles was sie weiss was weiss sie alles wer wusste das
 G:E_LESSON9
 
@@ -470,9 +469,9 @@ G:E_LESSON9
 K:12:MENU
 B:               Lesson 10: Die Buchstaben "q" und "p"
 T:
- : ï¿½be, wie gehabt, vor Beginn der Lektion die Erreichbarkeit
+ : šbe, wie gehabt, vor Beginn der Lektion die Erreichbarkeit
  : der Tasten. Da diese beiden Tasten vom kleinen Finger
- : ï¿½bernommen werden, ist dabei schon etwas mehr ï¿½bung
+ : bernommen werden, ist dabei schon etwas mehr šbung
  : erforderlich.Sprich wieder laut mit!
 *:LESSON10_D1
 I:(1)
@@ -489,7 +488,7 @@ D:qua quo qua quo qua qua quo que que qua quo que qui qui quo
 *:LESSON10_D3
 I:(3)
 D:faq fap dap kap lap laq leq geq seq que hap kap sap paw wap
- :quer quar quap quir quet quel qual quod quen quer quar quas
+ :quer quar quap quir quet quel qual quod quet quer quar quas
  :pros pras pris prid prod prad prol pril pral peil pfei pfah
  :pfla pflo plat plas plea plig plik plag pleg plus plei plie
 *:LESSON10_D4
@@ -526,7 +525,7 @@ K:12:MENU
 B:               Lesson 11: Die Buchstaben "v" und "m"
 T:
  : Bevor diese Lektion beginnt, sind ein paar
- : Dehnungsï¿½bungen fï¿½r die Finger angebracht.
+ : Dehnungsbungen fr die Finger angebracht.
  : Ab jetzt geht es in die untere Reihe. Die Tasten 
  : "v" und "m" werden mit dem Zeigefinger gegriffen.
 *:LESSON11_D1
@@ -550,7 +549,7 @@ D:mitte mittel matte matt platt platte watte quaddel mast mus
 *:LESSON11_D4
 I:(4)
 D:mimik hervor herum vertreter wurde mehrere verkauf verglast
- :fremde vï¿½gel vogel des vogels vï¿½gel klaus kommt aus amerika
+ :fremde v”gel vogel des vogels v”gel klaus kommt aus amerika
  :es stimmt die stimme der stummel verlade gestammelt stummer
  :kummer fummel hummel summe summt krumm kram er kramt lahmer
 *:LESSON11_D5
@@ -574,16 +573,16 @@ G:E_LESSON11
 K:12:MENU
 B:               Lesson 12: Die Buchstaben "b" und "n"
 T:
- : Weitere Arbeit fï¿½r die Zeigefinger!
- : Auch die Tasten "b" und "n" gehï¿½ren zu seinem 
+ : Weitere Arbeit fr die Zeigefinger!
+ : Auch die Tasten "b" und "n" geh”ren zu seinem 
  : Wirkungskreis. Achte darauf, dass Du nach Anschlagen
  : der Tasten in der unteren Reihe wieder in die 
- : Grundstellung zurï¿½ckkehrst.
+ : Grundstellung zurckkehrst.
 *:LESSON12_D1
 I:(1)
 D:bn nb bn nb nb bn bn nb nb bn nb bn gn gn gb hb bh jb fn bf
- :gn fn gb bg fb hb bh jb bj kb bk db bd sb bs ab ba lb bl bï¿½
- :ï¿½b bo bu bi no nu ni ne be br bw kb bk bt tb zb bz ln nl vn
+ :gn fn gb bg fb hb bh jb bj kb bk db bd sb bs ab ba lb bl b”
+ :”b bo bu bi no nu ni ne be br bw kb bk bt tb zb bz ln nl vn
  :jnj jnj njn fbf bfb fbf bfb jnj njn bfj njf gbt bgt nju njh
 *:LESSON12_D2
 I:(2)
@@ -607,13 +606,13 @@ D:gebeten sagen fragen plagen nagen neige trinken singen sang
 I:(5)
 D:zu lies das manual sagt man rtm die informationen findet er
  :dort zuerst wer liest lernt er sie liest viel uta lernt was
- :man tun muss um arbeiten zu kï¿½nnen kï¿½nnte sein dass er nein
+ :man tun muss um arbeiten zu k”nnen k”nnte sein dass er nein
  :sagt aber fragen ist besser als warten wen interessiert das
 *:LESSON12_D6
 I:(6)
 D:alles was man lesen kann hilft beim lernen fahrt ski in den
  :bergen beine festhalten er will reinen wein wann wird er es
- :lesen kafka soll seine verse lesen alle wollen ihn hï¿½ren da
+ :lesen kafka soll seine verse lesen alle wollen ihn h”ren da
  :er so eine tiefe stimme hat eva strittmatter liest viel aus
 *:LESSON12_D7
 I:(7)
@@ -626,10 +625,10 @@ K:12:MENU
 B:                 Lesson 13: Das "c" und das Komma
 T:
  : Die Tasten "c" und das Komma werden vom Mittelfinger
- : gegriffen. Das erfordert etwas ï¿½bung, vor allem in 
- : der linken Hand, weil dort eine Abwï¿½rtsbewegung
+ : gegriffen. Das erfordert etwas šbung, vor allem in 
+ : der linken Hand, weil dort eine Abw„rtsbewegung
  : von links nach rechts vollzogen werden muss.
- : ï¿½be dies bevor Du mit der Lektion beginnst.
+ : šbe dies bevor Du mit der Lektion beginnst.
 *:LESSON13_D1
 I:(1)
 D:c, c, ,c dc cd k, ,k k, ,k cd dc ck kc d, ,d ck k, c, d, k,
@@ -659,17 +658,17 @@ I:(5)
 D:dick lack leck auch dich doch deck lech dach loch doch noch
  :buch fluch such versuch betrug falsch pflicht verzicht auch
  :versuchung besuch tuch tauche seuche verflucht gedichte chi
- :eva liest gedichte die ich schon lange kenne, doch schï¿½n
+ :eva liest gedichte die ich schon lange kenne, doch sch”n
 *:LESSON13_D6
 I:(6)
 D:sind sie doch  auch, wenn der saal nicht voll ist, wird er
  :seine verse lesen kommt das komma da hin, oder da hin  ich
- :will gerne kommes setzen, doch ich mache das sicher immer
- :falsch  na schï¿½n, wenn es sein muss, dann auch mit kommata
+ :will gerne kommas setzen, doch ich mache das sicher immer
+ :falsch  na sch”n, wenn es sein muss, dann auch mit kommata
 *:LESSON13_D7
 I:(7)
-D:schick, schlank, schnick, schnack, schï¿½n, schade, schwer,
- :schlank, schï¿½n, schï¿½ner, schneller, zu schnell, schriftlich
+D:schick, schlank, schnick, schnack, sch”n, schade, schwer,
+ :schlank, sch”n, sch”ner, schneller, zu schnell, schriftlich
  :hilfreich ist, wenn man die regeln zur kommasetzung kennt
  :auch wenn der rechner streikt, musst du die ruhe bewahren
 G:E_LESSON13
@@ -679,15 +678,15 @@ K:12:MENU
 B:                Lesson 14: Zum "x"ten Mal und Punkt
 T:
  : Die Tasten "x" und der Punkt werden vom Ringfinger
- : gegriffen. Sprich die einzelnen Buschtagen und Zeichen
- : mit. ï¿½ber vor beginn der Lektion vor allem das 
+ : gegriffen. Sprich die einzelnen Buchstaben und Zeichen
+ : mit. šbe vor Beginn der Lektion vor allem das
  : Untersetzen der Ringfinger auf die neuen Tasten.
 *:LESSON14_D1
 I:(1)
 D:x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x.
  :x.x x.x x.x x.x x.x x.x x.x x.x x.x x.x x.x x.x x.x x.x x.x
  :xx.. xx.. xx.. xx.. xx.. xx.. x.. xx.. xx.. xx.. xx.. xx..
- :axa ï¿½.ï¿½ axa ï¿½.ï¿½ axa ï¿½.ï¿½ axa ï¿½.ï¿½ axa ï¿½.ï¿½ axa ï¿½.ï¿½ axa ï¿½.ï¿½ axa
+ :axa ”.” axa ”.” axa ”.” axa ”.” axa ”.” axa ”.” axa ”.” axa
 *:LESSON14_D2
 I:(2)
 D:axt exe axt exe ol. ol. mol. mal. mel. en. en. en. ein. en.
@@ -699,7 +698,7 @@ I:(3)
 D:tux. tex. exakt. explosion. exorbitant. mexiko. exempel. ex
  :tux luxemburg. fix. fax. fixum. fixieren. extrakt. extra. 
  :tux nixe verflixt fixen ein problem fixen. fix. max. lol l.
- :tux. den text revidieren. xerxes, der perserkï¿½nig war nicht
+ :tux. den text revidieren. xerxes, der perserk”nig war nicht
 *:LESSON14_D4
 I:(4)
 D:in luxemburg, sagt er. felix lebt nicht am existenzminimum.
@@ -717,7 +716,7 @@ I:(6)
 D:nach der explosion war der saal leer. kafka las erstmal die
  :verse nicht mehr weiter, bis sich die aufregung legte. text
  :der text aus dem lexikon ist nicht ausreichend. deshalb las
- :sie auch noch die entschrechenden seiten im internet. ende.
+ :sie auch noch die entsprechenden seiten im internet. ende.
 G:E_LESSON14
 
 *:S_LESSON15
@@ -726,8 +725,8 @@ B:             Lesson 15: ASCII-ART -etwas Auflockerung
 T:
  : Entspannung ist angesagt. Hier geht es nicht um
  : Geschwindigkeit. Diese Lektion soll einfach
- : demonstrieren, dass die Buchstaben mehr kï¿½nnen,
- : als nur Worte zu bilden. Viel Spaï¿½!
+ : demonstrieren, dass die Buchstaben mehr k”nnen,
+ : als nur Worte zu bilden. Viel Spaá!
 *:LESSON15_D1
 I:(1)
 D:x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x.
@@ -736,7 +735,7 @@ D:x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x. x.
  :                x o o x
 *:LESSON15_D2
 I:(2)
-D:x x             x  ï¿½  x
+D:x x             x  ”  x
  :x  x             xxxxx
  :x  x              xxx
  : x   x        xxxxxxxxxxx
@@ -778,7 +777,7 @@ D:            g  l     l  g
  :dieser klassische zweireiher besticht durch seine
 *:LESSON15_D9
 I:(9)
-D:formschï¿½ne linie. die hosen im karrottenschnitt
+D:formsch”ne linie. die hosen im karrottenschnitt
  :vollenden den gesamteindruck. achten sie auf den
  :strahlenden blick unseres models. ein seemann wie er im
  :buche steht.
@@ -793,19 +792,19 @@ B:         Lesson 16: Der Buchstabe "y" und der Mittelstrich
 T:
  : Das "y" und der Mittelstrich werden mit den kleinen
  : Fingern gegriffen. Der Mittelstrich kann als Trenn-
- : strich fï¿½r die Silbentrennung, als Ergï¿½nzungsbindestrich,
+ : strich fr die Silbentrennung, als Erg„nzungsbindestrich,
  : als Gedankenstrich, als Mittelstrich oder Zeichen 
- : fï¿½r "gegen" oder fï¿½r "bis" und als Subtraktionszeichen
+ : fr "gegen" oder fr "bis" und als Subtraktionszeichen
  : benutzt werden.
 *:LESSON16_D1
 I:(1)
 D:y- y- y- y- y- y- y- y- y- y- y- y- y- y- y- y- y- y- y- y-
  :y- y- y- y- y- y- y- -y -y -y -y -y -y -y -y -y -y -y -y -y
- :ï¿½-ï¿½ ï¿½-ï¿½ ï¿½-ï¿½ ï¿½-ï¿½ -ï¿½- ï¿½-ï¿½ -ï¿½- ï¿½-ï¿½ -ï¿½- ï¿½-ï¿½ -ï¿½- ï¿½-ï¿½ -ï¿½- ï¿½-ï¿½ -ï¿½-
+ :”-” ”-” ”-” ”-” -”- ”-” -”- ”-” -”- ”-” -”- ”-” -”- ”-” -”-
  :aya yay aya yay aya aya yay yay aya yay yay aya yay yay aya
 *:LESSON16_D2
 I:(2)
-D:fsdaya jklï¿½-ï¿½ fsdaya jklï¿½-ï¿½ fsdaya jklï¿½-ï¿½ fsadya jkl-ï¿½-ï¿½ a-
+D:fsdaya jkl”-” fsdaya jkl”-” fsdaya jkl”-” fsadya jkl-”-” a-
  :sys l-l sys l-l sys l-l sys l-l sys l-l sys l-l sys l-l sys
  :dyn k-m dyn k-n dyn k-n syd ky- syf k-d syg k-h syn jn- hay
  :asyl asyl sylt sylt type type asyl sylt sys- teme syn- oden
@@ -814,194 +813,194 @@ I:(3)
 D:bay- ern ana- lyse hygiene dynamo gymnastik lyzeum ly- zeum
  :bayern analyse hy- giene dy- namo gym- nastik synode system
  :yeti - yak - synthetisches - synergetisch - sylt asyl typen
- :yast - yet another setup tool 
+ :yast - yet another setup tool
 *:LESSON16_D4
 I:(4)
-D:sympathisch sympathie hypothek lyon 
+D:sympathisch sympathie hypothek lyon
  :als der pc noch nicht das standard-schreibmittel war, und
- :fï¿½rmliche texte in die schreibmaschiene gehackt wurden,
+ :f”rmliche texte in die schreibmaschine gehackt wurden,
  :stellte man mittels bindestrich sicher, dass der rechte
 *:LESSON16_D5
 I:(5)
-D:rand relativ einheitlich wurde. die wï¿½rter wurden nach sil-
+D:rand relativ einheitlich wurde. die w”rter wurden nach sil-
  :ben getrennt. der bindestrich kann aber auch zwischen zwei
- :hauptwï¿½rtern stehen, um diese zu verbinden, wie in
+ :hauptw”rtern stehen, um diese zu verbinden, wie in
  :kaffee-ersatz. wer sich mit sport auskennt, orientiert sich
 *:LESSON16_D6
 I:(6)
 D:an den punktetabellen, wenn er die ergebnisse verschiedener
  :mannschaften vergleichen will. dort wird der bindestrich
  :verwendet, um zu zeigen, wer gegen wen spielt.
- :    herta bsc - fortuna kï¿½ln
+ :    herta bsc - fortuna k”ln
 *:LESSON16_D7
 I:(7)
 D:in verbindungen wie gertrud-meier-platz oder 
  :nord-ostsee-kanal wird der mittelstrich ohne leerzeichen
  :verwendet. als gedankestrich taucht er auf, wenn man ein
- :paar stichworte logisch voneinander absetzen mï¿½chte.
+ :paar stichworte logisch voneinander absetzen m”chte.
 G:E_LESSON16
 
 *:S_LESSON17
 K:12:MENU
-B:               Lesson 17: Die Buchstaben "ï¿½" und "ï¿½"
+B:              Lesson 17: Die Buchstaben "„" und ""
 T:
- : Die Buchstaben "ï¿½" und "ï¿½" werden mit dem kleinen rechten
- : Finger gegriffen. Spreize den kleiner Finger ï¿½ber die Tasten,
+ : Die Buchstaben "„" und "" werden mit dem kleinen rechten
+ : Finger gegriffen. Spreize den kleiner Finger ber die Tasten,
  : verschiebe dabei aber nicht die Hand.
  : Denke daran: Zuerst die neuen Schritte mehrmals ertasten!
 *:LESSON17_D1
 I:(1)
-D:ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
- :ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
- :ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
- :ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+D:”„ ”„ ”„ ”„ ”„ „” „” ”„ ”„ „” ”„ „” ”„ ”„ ”„
+ :”” ”” ”” ”” ”” ”” ”” ” ” ” ” ”” ” ”” ”
+ :”„” ”„” „”„ „”„ „”„ ”„” ”„” ”„” „”„ ”„” ”„” ”„” ”„” „”„ „”„
+ :„„ „„ „„ „” „„ „ „ ”” ”„ „ „ ”„ ”„ ”„ „”
 *:LESSON17_D2
 I:(2)
-D:mï¿½hre mï¿½hre fï¿½hre fï¿½hre wï¿½rde kï¿½nnte mï¿½sste hï¿½tte tï¿½te gï¿½be
- :wï¿½re sï¿½he lï¿½ge sï¿½ge wï¿½ge mï¿½gen lï¿½gen lï¿½gen rï¿½gen trï¿½gen ï¿½bt
- :geï¿½bt gepflï¿½gt - ï¿½bt bemï¿½ht, berï¿½hmt, gerï¿½hmt, gesï¿½hnt ï¿½ber
- :flï¿½gen die vï¿½gel ï¿½ber die meere
+D:m”hre m„hre f„hre fhre wrde k”nnte msste h„tte t„te g„be
+ :w„re s„he l„ge s„ge w„ge m„gen l„gen lgen rgen trgen bt
+ :gebt gepflgt - bt bemht, berhmt, gerhmt, geshnt ber
+ :fl”gen die v”gel ber die meere
 *:LESSON17_D3
 I:(3)
-D:und sï¿½hen die mï¿½hre, 
- :gefolgt von dem bï¿½ren,
- :dann wï¿½rden sie stï¿½rzen hinab auf den bï¿½sen,
- :zum tï¿½ten bereiten, verfressenen rï¿½uber,
+D:und s„hen die m„hre, 
+ :gefolgt von dem b„ren,
+ :dann wrden sie strzen hinab auf den b”sen,
+ :zum t”ten bereiten, verfressenen r„uber,
 *:LESSON17_D4
 I:(4)
 D:ihn zausen und hacken, 
- :mit schnï¿½beln zwacken,
+ :mit schn„beln zwacken,
  :ihn stechen und jagen 
- :bis er zï¿½g von dannen
+ :bis er z”g von dannen
 *:LESSON17_D5
 I:(5)
 D:mit hungrigem magen...
- :gesï¿½ff, krï¿½ge, zï¿½ge, betrï¿½gen, gï¿½hnen, erwï¿½hnen, grï¿½hlen,
- :gesï¿½nge, gelï¿½nge, begï¿½nne, zï¿½liakie, zï¿½nglein, zï¿½ndhï¿½lzer,
- :gezï¿½ndet, verzï¿½ckt, glï¿½cklich, verrï¿½ckt, bedrï¿½ckt, rï¿½cken,
+ :ges”ff, krge, zge, betrgen, g„hnen, erw„hnen, gr”hlen,
+ :ges„nge, gel„nge, beg„nne, z”liakie, znglein, zndh”lzer,
+ :gezndet, verzckt, glcklich, verrckt, bedrckt, rcken,
 *:LESSON17_D6
 I:(6)
-D:genï¿½gend, berï¿½hren, verfï¿½hren, verfahren, fï¿½r wen, wofï¿½r,
- :dafï¿½r, die tï¿½r, das gebï¿½lk, etwas gebï¿½ck, ï¿½pfel, ï¿½berlegen
- :ï¿½bermï¿½tig, gï¿½belchen, geflï¿½gel, gebï¿½gelt, verbrï¿½ht, bï¿½ume,
- :verprï¿½gelt, die ï¿½ste, das geï¿½st, die jï¿½ger, flï¿½he fliehen,
+D:gengend, berhren, verfhren, verfahren, fr wen, wofr,
+ :dafr, die tr, das geb„lk, etwas geb„ck, „pfel, berlegen
+ :bermtig, g„belchen, geflgel, gebgelt, verbrht, b„ume,
+ :verprgelt, die „ste, das ge„st, die j„ger, fl”he fliehen,
 *:LESSON17_D7
 I:(7)
-D:konfitï¿½re, marmelade, breitmaulfrï¿½sche ï¿½ngstigen sich vor
- :stï¿½rchen, die lï¿½rche, die lerche, schï¿½be, zï¿½ge, trï¿½ge, er-
- :trï¿½glich, nachgeï¿½fft, geschï¿½ft, krï¿½ftig, beschï¿½ftigt, ï¿½ber
- :von frï¿½h bis spï¿½t, qualitï¿½tsartikel zur verfï¿½gung stellen.
+D:konfitre, marmelade, breitmaulfr”sche „ngstigen sich vor
+ :st”rchen, die l„rche, die lerche, schbe, z”ge, tr„ge, er-
+ :tr„glich, nachge„fft, gesch„ft, kr„ftig, besch„ftigt, ber
+ :von frh bis sp„t, qualit„tsartikel zur verfgung stellen.
 *:LESSON17_D8
 I:(8)
-D:die flï¿½che der europï¿½ischen gemeinschaft betrï¿½gt...
- :vorwï¿½rts und rï¿½ckwï¿½rts gelesen ergï¿½be der text dieser lek-
+D:die fl„che der europ„ischen gemeinschaft betr„gt...
+ :vorw„rts und rckw„rts gelesen erg„be der text dieser lek-
  :tion keinen sinn.  
- :...ach so, vï¿½gel ï¿½rgern keine bï¿½ren.
+ :...ach so, v”gel „rgern keine b„ren.
 G:E_LESSON17
 
 *:S_LESSON18
 K:12:MENU
-B:              Lesson 18: Das "ï¿½" (sprich: "Ess-zet")
+B:              Lesson 18: Das "á" (sprich: "Ess-zet")
 T:
- : Das "ï¿½" ist noch nicht von der Tastatur verbannt.
- : Es wir ebenfalls vom rechten kleinen Finger gegriffen.
- : Da wir hierbei in die Zahlenreihe greifen mï¿½ssen,
+ : Das "á" ist noch nicht von der Tastatur verbannt.
+ : Es wird ebenfalls vom rechten kleinen Finger gegriffen.
+ : Da wir hierbei in die Zahlenreihe greifen mssen,
  : ist Vorsicht geboten. Nimm die restlichen Finger der
  : Hand nicht aus der Grundstellung, sonst kann es leicht
- : zur Verschiebung in die darï¿½berliegende Reihe kommen.
+ : zur Verschiebung in die darberliegende Reihe kommen.
 *:LESSON18_D1
 I:(1)
-D:ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½
- :ï¿½t ï¿½t ï¿½t ï¿½e ï¿½t ï¿½e ï¿½a ï¿½t ï¿½e ï¿½d ï¿½t ï¿½ï¿½ ï¿½t ï¿½ï¿½ ï¿½t ï¿½ï¿½t ï¿½ï¿½t ï¿½ï¿½e aï¿½
- :ï¿½pï¿½ï¿½ ï¿½pï¿½o ï¿½opï¿½ ï¿½-ï¿½p ï¿½pï¿½- ï¿½ï¿½ï¿½ï¿½ -ï¿½-ï¿½ ï¿½--ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
- :mï¿½ssen bï¿½ï¿½t fï¿½ï¿½e sï¿½ï¿½e kï¿½ssen rï¿½ssel schï¿½ssel grï¿½ï¿½t mï¿½ï¿½ig aï¿½
+D:„á „á „á ”á á ”á á ”á á „á á ”á á á „á ”á á „á ”á á
+ :át át át áe át áe áa át áe ád át á át á át át át „áe aá
+ :”pá ápo áop„ ”-áp áp„- ”„á -”-á á-- ”„á á„” á„”á „á”
+ :mssen bát fáe sáe kssen rssel schssel grát máig aá
 *:LESSON18_D2
 I:(2)
-D:er aï¿½ es, sie saï¿½, er vergaï¿½ ganz, sie besaï¿½ alles, straï¿½en
- :gieï¿½en, begieï¿½en, genieï¿½en, zerflieï¿½en, zerfloss, schieï¿½end
- :saï¿½ der jï¿½ger auf seinem gesï¿½ï¿½, das gefï¿½ï¿½, das fass, grï¿½ï¿½er
+D:er aá es, sie saá, er vergaá ganz, sie besaá alles, straáen
+ :gieáen, begieáen, genieáen, zerflieáen, zerfloss, schieáend
+ :saá der j„ger auf seinem ges„á, das gef„á, das fass, gr”áer
  :achtung - achtung - achtung -
 *:LESSON18_D3
 I:(3)
-D:nach der neuen rechtschreibregel gilt gerade das ï¿½ als kri-
- :tisch. schrieb man bisher wï¿½rter, deren infinitiv ein ss
- :enthielt in der gebeugten form mit ï¿½, so muss man nun acht
- :geben. es heiï¿½t weiterhin fï¿½ï¿½e, wï¿½hrend es neuerdings fasst
+D:nach der neuen rechtschreibregel gilt gerade das á als kri-
+ :tisch. schrieb man bisher w”rter, deren infinitiv ein ss
+ :enthielt in der gebeugten form mit á, so muss man nun acht
+ :geben. es heiát weiterhin fáe, w„hrend es neuerdings fasst
 *:LESSON18_D4
 I:(4)
-D:heiï¿½t. die regel ist nicht sehr schwer. klingt der vokal
- :vor dem s-laut lang, schreibt man ein ï¿½, klingt er kurz,
+D:heiát. die regel ist nicht sehr schwer. klingt der vokal
+ :vor dem s-laut lang, schreibt man ein á, klingt er kurz,
  :dann benutzt man ss. also fassen, fasst, das fass, gefasst,
- :mï¿½ssen, muss, schluss, kuss - aber - fuï¿½, fï¿½ï¿½e, sï¿½ï¿½, groï¿½,
+ :mssen, muss, schluss, kuss - aber - fuá, fáe, sá, groá,
 *:LESSON18_D5
 I:(5)
-D:gemï¿½ï¿½. auch bei den doppelvokalen tritt das ï¿½ in auf. also
- :heiï¿½, weiï¿½, ï¿½uï¿½erst, auï¿½en, genieï¿½en, flieï¿½en, fleiï¿½ig.
- :viel spaï¿½ und weiterhin genï¿½ssliches ï¿½ben.
- :er maï¿½ ab, das maï¿½ aller dinge,
+D:gem„á. auch bei den doppelvokalen tritt das á in auf. also
+ :heiá, weiá, „uáerst, auáen, genieáen, flieáen, fleiáig.
+ :viel spaá und weiterhin genssliches ben.
+ :er maá ab, das maá aller dinge,
 *:LESSON18_D6
 I:(6)
-D:hass, muss, misslingen, essbar, grï¿½ï¿½er, schï¿½ï¿½linge, mï¿½ï¿½ig,
- :gleichmï¿½ï¿½ig, das postschlieï¿½fach, expressgï¿½ter, man stï¿½ï¿½t,
- :planmï¿½ï¿½ig, regelmï¿½ï¿½ig, gemï¿½ï¿½, das gefï¿½ï¿½, stï¿½ï¿½e, die grï¿½ï¿½te
+D:hass, muss, misslingen, essbar, gr”áer, sch”álinge, m„áig,
+ :gleichm„áig, das postschlieáfach, expressgter, man st”át,
+ :planm„áig, regelm„áig, gem„á, das gef„á, st”áe, die gr”áte
 G:E_LESSON18
 
 *:S_LESSON19
 K:12:MENU
 B:                    Lesson 19: GROSSSCHREIBUNG
 T:
- : Die Groï¿½schreibung: Mittels der Hochstelltasten werden die
+ : Die Groáschreibung: mittels der Hochstelltasten werden die
  : Buchstabentasten in die Zweitbelegung versetzt. Diese ist in
- : der Regel mit den Groï¿½buchstaben besetzt. Es gibt dabei zwei
- : Mï¿½glichkeiten. Mit der linken oberen Taste "Pfeil nach unten"
- : wird die Tastatur bis zum erneuten Betï¿½tigen dieser
+ : der Regel mit den Groábuchstaben besetzt. Es gibt dabei zwei
+ : M”glichkeiten: mit der linken oberen Taste "Pfeil nach unten"
+ : wird die Tastatur bis zum erneuten Best„tigen dieser
  : "CAPSLOCK"-Taste  in die Zweitbelegung versetzt. Man schreibt
- : dann ganz normal weiter erhï¿½lt aber Groï¿½buchstaben. Die beiden
+ : dann ganz normal weiter erh„lt aber Groábuchstaben. Die beiden
  : anderen "SHIFT"-Tasten links und rechts in der untersten
- : Tastenreihe mï¿½ssen beim tippten des Buchstaben gehalten
+ : Tastenreihe mssen beim tippen des Buchstaben gehalten
  : werden. Das geht am besten wechselseitig.
 *:LESSON19_D1
 I:(1)
 D:ALLES WAS HIER STEHT IST, MIT FESTGESTELLTER UMSCHALTTASTE
  :LINKS GESCHRIEBEN. DABEI BLEIBEN AUCH PUNKT UND KOMMA, SO-
  :WIE BINDESTRICHE ERHALTEN. IM FOLGENDEN BENUTZEN WIR DIESE
- :TASTE NICHT MEHR, DA DAMIT NICHT DER ï¿½BLICHE SCHREIBALLTAG
+ :TASTE NICHT MEHR, DA DAMIT NICHT DER šBLICHE SCHREIBALLTAG
 *:LESSON19_D2
 I:(2)
-D:BEWï¿½LTIGT WIRD. DIE BEIDEN ANDEREN UMSCHALTTASTEN WERDEN
+D:BEWLTIGT WIRD. DIE BEIDEN ANDEREN UMSCHALTTASTEN WERDEN
  :JEWEILS VON DEM KLEINEN FINGER DER HAND BENUTZT, DIE EINEN
- :Kï¿½RZEREN WEG HAT. DAS IST IN DER REGEL DIE HAND, DIE Fï¿½R
- :DEN FOLGENDEN BUCHSTABEN NICHT BENï¿½TIGT WIRD. DAMIT IST ES
+ :KšRZEREN WEG HAT. DAS IST IN DER REGEL DIE HAND, DIE FšR
+ :DEN FOLGENDEN BUCHSTABEN NICHT BEN™TIGT WIRD. DAMIT IST ES
 *:LESSON19_D3
 I:(3)
-D:DANN AUCH Mï¿½GLICH, ALLE ZEICHEN DER ZWEITBELEGUNG ZU TIP-
+D:DANN AUCH M™GLICH, ALLE ZEICHEN DER ZWEITBELEGUNG ZU TIP-
  :PEN, ALSO AUCH DAS FRAGEZEICHEN.
- :DIE ERSTE ï¿½BUNG WIRD Fï¿½R DIE UMSCHALTTASTE LINKS, DIE ZWEI-
- :TE Fï¿½R DIE UMSCHALTTASTE RECHTS SEIN. DANACH WIRD GEMISCHT.
+ :DIE ERSTE šBUNG WIRD FšR DIE UMSCHALTTASTE LINKS, DIE ZWEI-
+ :TE FšR DIE UMSCHALTTASTE RECHTS SEIN. DANACH WIRD GEMISCHT.
 *:LESSON19_D4
 I:(4)
-D:ACHTUNG, DIE FESTSTELLTASTE MUSS NUN NOCH EINMAL BETï¿½TIGT
- :WERDEN. jetzt sollte das capslock-lï¿½mpchen aus sein.
- :erste ï¿½bung - links
+D:ACHTUNG, DIE FESTSTELLTASTE MUSS NUN NOCH EINMAL BETTIGT
+ :WERDEN. jetzt sollte das capslock-l„mpchen aus sein.
+ :erste bung - links
  :Ja Ja Ja Ja Ja Ja Ja Ja Ka Ka Ka Ka Ka Ka Ka Ka La La La La
 *:LESSON19_D5
 I:(5)
 D:Ma Ma Ma Ma Ma Ma Za Za Za Za Ha Ja Ja Ha Ha Za Ha Ha Ha Ha
- :zweite ï¿½bung -rechts
- :Fï¿½ Fï¿½ Fï¿½ Fï¿½ Fï¿½ Fï¿½ Fï¿½ Fï¿½ Fï¿½ Fï¿½ Gï¿½ Gï¿½ Gï¿½ Gï¿½ Gï¿½ Bï¿½ Bï¿½ Bï¿½ Bï¿½ Bï¿½
- :Wï¿½ Wï¿½ Wï¿½ Wï¿½ Rï¿½ Rï¿½ Rï¿½ Rï¿½ Rï¿½ Gï¿½ Gï¿½ Fï¿½ Dï¿½ Sï¿½ Vï¿½ Vï¿½ Vï¿½ Sï¿½ Dï¿½ Dï¿½
+ :zweite šbung -rechts
+ :F” F” F” F” F” F” F” F” F” F” G” G” G” G” G” B” B” B” B” B”
+ :W” W” W” W” R„ R„ R„ R” R” G„ G„ F„ D„ S„ V„ V„ V” S” D„ D„
 *:LESSON19_D6
 I:(6)
 D:gemischt -
  :Kalk Kalk Wald Wald Rand Sand Hand Land Verstand Klang Tank
  :Wort, Ort, Hort, Gehrung, Nahrung, Klarheit, Vergangenheit,
- :Art, Hahn, Mahnung, Lohn, Sohn, Hohn, Keim, Krï¿½nung, Krone,
+ :Art, Hahn, Mahnung, Lohn, Sohn, Hohn, Keim, Kr”nung, Krone,
 *:LESSON19_D7
 I:(7)
 D:Leine, Leim, Heim, Geheimnis, Verbannung, Bekanntmachungen,
- :Training, die Trï¿½ne, der Trost, trostlos, das Los, Losungen
+ :Training, die Tr„ne, der Trost, trostlos, das Los, Losungen
  :Die folgenden vier Lektionen werden aus ganz normalen Text-
- :ï¿½bungen bestehen, danach geht es mit den Sonder- und Zahl-
+ :bungen bestehen, danach geht es mit den Sonder- und Zahl-
 *:LESSON19_D8
 I:(8)
 D:zeichen weiter.
@@ -1012,15 +1011,15 @@ K:12:MENU
 B:                  Lesson 20: Linux - meine Freude
 T:
  : Linux meine Freude:
- : ein kleiner Bericht ï¿½ber den Umstieg auf Linux.
- : Erste Textï¿½bung. Achte am Ende der Zeilen auf
+ : ein kleiner Bericht ber den Umstieg auf Linux.
+ : Erste Textbung. Achte am Ende der Zeilen auf
  : den rechtzeitigen Umbruch.
 *:LESSON20_D1
 I:(1)
 D:Linux - meine Freude
  :Es war ein ganz normaler Tag. Alles war wie immer. Ich kam
  :aus der Schule und setzte mich an den PC. Homepage verwal-
- :ten, Schï¿½lerdaten aktualisieren, Unterricht vorbereiten,
+ :ten, Schlerdaten aktualisieren, Unterricht vorbereiten,
 *:LESSON20_D2
 I:(2)
 D:nebenbei ein paar MIDI-Files bearbeiten und E-Mail lesen.
@@ -1029,9 +1028,9 @@ D:nebenbei ein paar MIDI-Files bearbeiten und E-Mail lesen.
  :Minuten. Als ich dann im Postfach sah, dass da genau eine
 *:LESSON20_D3
 I:(3)
-D:nicht einmal sehr lange Mail reingekommen war, stand fï¿½r
+D:nicht einmal sehr lange Mail reingekommen war, stand fr
  :mich der Umstieg fest. Linux musste her. Ich wusste nicht,
- :was da auf mich zukommen wï¿½rde, doch das war mir egal. Es
+ :was da auf mich zukommen wrde, doch das war mir egal. Es
  :konnte nur noch besser werden. Kostenlose Software, gute
 *:LESSON20_D4
 I:(4)
@@ -1043,18 +1042,18 @@ D:Internetanbindung, arbeiten auf verschiedenen Konsolen,
 I:(5)
 D:wichtige, also auch die ISDN-Konfiguration, fertig.
  :Einiges an meiner Hardware war problematisch, z.B. bekam
- :ich die Soundkarte nicht gleich voll einsatzfï¿½hig, aber da
+ :ich die Soundkarte nicht gleich voll einsatzf„hig, aber da
  :ich nun sowieso erstmal mehrere Gigabyte an Software zu
 *:LESSON20_D6
 I:(6)
-D:erkunden hatte, stï¿½rte mich das weniger.
- :Eine vernï¿½nftige Mailkonfiguration habe ich erst Wochen
- :spï¿½ter eingerichtet, doch fï¿½r den Anfang tat es Netscape.
+D:erkunden hatte, st”rte mich das weniger.
+ :Eine vernnftige Mailkonfiguration habe ich erst Wochen
+ :sp„ter eingerichtet, doch fr den Anfang tat es Netscape.
  :Inzwischen arbeite ich seit 10 Monaten mit Linux, und ich
 *:LESSON20_D7
 I:(7)
 D:habe keinen Tag davon bereut. Ich habe wieder angefangen,
- :Bï¿½cher zu lesen, und meine Fï¿½higkeit, mich auf ein Problem
+ :Bcher zu lesen, und meine F„higkeit, mich auf ein Problem
  :zu konzentrieren, statt einfach drauf los zu arbeiten, ist
  :irgendwie auch besser geworden. Dennoch gibt es noch sehr
 *:LESSON20_D8
@@ -1066,11 +1065,11 @@ G:E_LESSON20
 K:12:MENU
 B:                      Lesson 21: Das Internet
 T:
- : Das Internet - kurze Einfï¿½hrung. Ganz frei nach
+ : Das Internet - kurze Einfhrung. Ganz frei nach
  : Paul Albitz und Cricket Liu in "DNS und BIND".
- : (Erschienen im O'Reilly-Verlag.)
+ : (erschienen im O'Reilly-Verlag.)
  : Achtung, der Text ist etwas lang. Deshalb eignet
- : er sich zum ï¿½ben von Schreibgeschwindigkeit eben-
+ : er sich zum šben der Schreibgeschwindigkeit eben-
  : so, wie zum reinen Training der kleinen Finger
  : (Shift-Taste, Bindestrich, Umlaute).
 *:LESSON21_D1
@@ -1078,11 +1077,11 @@ I:(1)
 D:Das Internet
  :Das Internet ist in aller Munde. Alle wollen daran teil-
  :haben, viele wollen daran verdienen. Selbst Boris ist, wie
- :jeder weiï¿½, inzwischen drin. Wie aber alles ganz genau be-
+ :jeder weiá, inzwischen drin. Wie aber alles ganz genau be-
 *:LESSON21_D2
 I:(2)
 D:gann, wissen die wenigsten. 
- :In den spï¿½ten sechziger Jahren begann die Advanced Research
+ :In den sp„ten sechziger Jahren begann die Advanced Research
  :Projects Agency des amerikanischen Verteidigungsministeri-
  :ums, kurz ARPA genannt, mit der Finanzierung ein experimen-
 *:LESSON21_D3
@@ -1090,35 +1089,35 @@ I:(3)
 D:tellen Wide Area Network, kurz WAN, um damit wichtige For-
  :schungsorganisationen in den Vereinigten Staaten von Ameri-
  :ka zu verbinden. Dieses Computernetz wurde ARPAnet genannt.
- :Das ursprï¿½ngliche Ziel bestand in der Freigabe teuerer und 
+ :Das ursprngliche Ziel bestand in der Freigabe teuerer und 
 *:LESSON21_D4
 I:(4)
 D:knapper Rechnerressourcen an Auftragnehmern der Regierung.
  :Von Anfang an wurde das Netzwerk von den Benutzern aber auch
- :fï¿½r die Zusammenarbeit, also der gemeinsamen Nutzung von Da-
+ :fr die Zusammenarbeit, also der gemeinsamen Nutzung von Da-
  :teien und Software, dem Austausch von E-Mail und der gemein-
 *:LESSON21_D5
 I:(5)
-D:samen Entwicklung und Forschung ï¿½ber gemeinsam genutzte ent-
+D:samen Entwicklung und Forschung ber gemeinsam genutzte ent-
  :fernte Computer, verwendet.
- :In den frï¿½hen achtziger Jahren wurde ï¿½ber eine Protokoll-
+ :In den frhen achtziger Jahren wurde ber eine Protokoll-
  :Suite nachgedacht. Es entstand das Transmission Control Pro-
 *:LESSON21_D6
 I:(6)
 D:tocol, Internet Protocol. Diese wurde im ARPAnet schnell 
- :Standard. Mit der Aufnahme dieses Protokolls in das populï¿½re
+ :Standard. Mit der Aufnahme dieses Protokolls in das popul„re
  :BSD Unix-Betriebssystem, der University of California at 
  :Berkeley begann die Demokratisierung von Netzwerken. Es wur-
 *:LESSON21_D7
 I:(7)
-D:den zunï¿½chst Universitï¿½ten verbunden, doch es dauerte nicht
+D:den zun„chst Universit„ten verbunden, doch es dauerte nicht
  :lange, bis die in ein lokales Netzwerk eingebundenen Compu-
- :ter ï¿½ber das ARPAnat kommunizieren konnten. Das Netzwerk
+ :ter ber das ARPAnet kommunizieren konnten. Das Netzwerk
  :wuchs und wuchs. Warens es anfangs noch eine Handvoll Hosts,
 *:LESSON21_D8
 I:(8)
 D:so wurde es schnell ein Netz von Zehntausenden von Hosts.
- :Das ursprï¿½ngliche ARPAnet wurde zum Backbone des Internet.
+ :Das ursprngliche ARPAnet wurde zum Backbone des Internet.
 G:E_LESSON21
 
 *:S_LESSON22
@@ -1126,28 +1125,28 @@ K:12:MENU
 B:                         Lesson 22: Lesung
 T:
  : Lesung: ein Text, der frei erfunden ist, aber vielleicht
- : ein wenig ï¿½ber die Textfragmente in den Anfangslektionen
- : aufklï¿½rt, und gern fortgesetzt werden kann, z.B. mit ei-
+ : ein wenig ber die Textfragmente in den Anfangslektionen
+ : aufkl„rt, und gern fortgesetzt werden kann, z.B. mit ei-
  : nem ganz normalen Texteditor. Versuchs doch mal!
- : Die schï¿½nsten Geschichten kï¿½nnten wir auf der 
- : PingoS-Homepage verï¿½ffentlichen.
+ : Die sch”nsten Geschichten k”nnten wir auf der 
+ : PingoS-Homepage ver”ffentlichen.
 *:LESSON22_D1
 I:(1)
 D:Lesung                                          A. Kalbitz
  :Samstagabend, Feierabend. Beine hochlegen, abschlaffen,
- :das miese Fernsehprogramm ï¿½ber sich ergehen lassen, schla-
+ :das miese Fernsehprogramm ber sich ergehen lassen, schla-
  :fen. Ein Leben lang berieselt von den Impressionen irgend-
 *:LESSON22_D2
 I:(2)
-D:welcher Fernsehredakteure, Krankenhausserien - Ein Muss,
+D:welcher Fernsehredakteure, Krankenhausserien - ein Muss,
  :zumindest, seit Dr. Brinkmann in der Schwarzwaldklinik zu
- :Weltruhm vor der ï¿½rzteschaft der Fernsehwelt gelangte.
- :Aber da war doch noch was. Da gab es noch andere Mï¿½glich-
+ :Weltruhm vor der rzteschaft der Fernsehwelt gelangte.
+ :Aber da war doch noch was. Da gab es noch andere M”glich-
 *:LESSON22_D3
 I:(3)
 D:keiten der Freizeitgestaltung. Beruhigt lehne ich mich zu-
- :rï¿½ck und merke kaum, wie mir die Augen zu fielen.
- :Es ist hï¿½chste Zeit. Gleich beginnt die Lesung, und unser-
+ :rck und merke kaum, wie mir die Augen zu fielen.
+ :Es ist h”chste Zeit. Gleich beginnt die Lesung, und unser-
  :eins sitzt noch im Taxi und sucht die Eintrittskarten.
 *:LESSON22_D4
 I:(4)
@@ -1157,25 +1156,25 @@ D:Ich bin absolut kein Kafka-Freund, aber es ist mal was an-
  :einen Platz in der letzten Reihe. Es wird dunkel. Nur vorn
 *:LESSON22_D5
 I:(5)
-D:auf der Bï¿½hne strahlt ein greller Scheinwerfer auf das et-
+D:auf der Bhne strahlt ein greller Scheinwerfer auf das et-
  :was zu kleine Lesepult. Applaus. Von der Seite tritt ein
  :Mann herein, den ich nicht kenne, der aber als Autor vor-
  :gestellt wird, und der sein neuestes Werk auszugweise vor-
 *:LESSON22_D6
 I:(6)
-D:lesen soll. Er setzt sich, rï¿½uspert sich noch einmal und
- :blï¿½ttert bedï¿½chtig in seinem Buch. Bei einem Lesezeichen
- :hï¿½lt er inne, ï¿½berfliegt die Seite, wirft noch einen Blick
+D:lesen soll. Er setzt sich, r„uspert sich noch einmal und
+ :bl„ttert bed„chtig in seinem Buch. Bei einem Lesezeichen
+ :h„lt er inne, berfliegt die Seite, wirft noch einen Blick
  :in den Saal, als wolle er sagen - Achtung, es geht gleich
 *:LESSON22_D7
 I:(7)
-D:los - und atmet tief ein, um zu lesen, als plï¿½tzlich ein
- :lautes Krachen den Saal erfï¿½llt. Das war kein Schuss, 
- :dachte ich gleich. Derartige Gerï¿½usche kennt man ja aus
+D:los - und atmet tief ein, um zu lesen, als pl”tzlich ein
+ :lautes Krachen den Saal erfllt. Das war kein Schuss, 
+ :dachte ich gleich. Derartige Ger„usche kennt man ja aus
  :den Aktionfilmen im Fernsehen. Der Stuhl eines Gastes kann
 *:LESSON22_D8
 I:(8)
-D:auch nicht zusammengebrochen sein. Dafï¿½r war das Gerï¿½usch
+D:auch nicht zusammengebrochen sein. Dafr war das Ger„usch
  :zu laut...
 G:E_LESSON22
 
@@ -1207,9 +1206,9 @@ D:warum da einer etwas tut,
  :Was hat die Menschen kalt gemacht,
 *:LESSON23_D4
 I:(4)
-D:dass mancher gleich darï¿½ber lacht,
+D:dass mancher gleich darber lacht,
  :wenn einem mal ein Missgeschick
- :die Rï¿½te auf die Wangen malt, er sich blamiert,
+ :die R”te auf die Wangen malt, er sich blamiert,
  :verletzt dann einfach resigniert.
 *:LESSON23_D5
 I:(5)
@@ -1226,13 +1225,13 @@ G:E_LESSON23
 K:12:MENU
 B:                Lesson 24: Die Zeichen "<" und ">"
 T:
- : Die Taste "kleiner als" und "grï¿½ï¿½er als"
- : um das Zeichen "<" (kleienr als) zu benutzen
- : betï¿½tige die Taste einfach mit dem linken kleinen
- : Finger. 
- : Das Zeichen ">" (grï¿½ï¿½er als) erhï¿½lst Du, wenn Du
- : mit dem rechten kleinen Finger die <shift>-Taste hï¿½lst
- : und mit dem rechten kleinen FInger die "<"-Taste betï¿½tigst.
+ : Die Taste "kleiner als" und "gr”áer als":
+ : um das Zeichen "<" (kleiner als) zu benutzen
+ : bet„tige die Taste einfach mit dem linken kleinen
+ : Finger.
+ : Das Zeichen ">" (gr”áer als) erh„lst Du, wenn Du
+ : mit dem rechten kleinen Finger die <Shift>-Taste h„lst
+ : und mit dem rechten kleinen Finger die "<"-Taste bet„tigst.
 *:LESSON24_D1
 I:(1)
 D:<><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
@@ -1247,10 +1246,10 @@ D:Die Zeichen < und > werden als Operatoren benutzt.
  :mit allen Dateien des akuellen Verzeichnisses anlegen.
 *:LESSON24_D3
 I:(3)
-D:Will dich eine Datei nicht ï¿½berschreiben sondern Daten
- :anhï¿½ngen, benutze ich >> als Operator. 
+D:Will ich eine Datei nicht berschreiben sondern Daten
+ :anh„ngen, benutze ich >> als Operator.
  :In HTML-Quellen spielen die Zeichen < und > eine wesent-
- :liche Rolle. Alle Tags, gesprochen: Tï¿½gs, werden zwischen
+ :liche Rolle. Alle Tags, gesprochen: T„gs, werden zwischen
 *:LESSON24_D4
 I:(4)
 D:< und > eingeschlossen.
@@ -1260,9 +1259,9 @@ D:< und > eingeschlossen.
 *:LESSON24_D5
 I:(5)
 D:die Tags von den normalen Texten abzugrenzen.
- :Hï¿½ufig werden die Zeichen auch verwendet, um Unterschiede
+ :H„ufig werden die Zeichen auch verwendet, um Unterschiede
  :darzustellen. Daher stammen auch die Bezeichnungen:
- :ist grï¿½ï¿½er als - fï¿½r > und ist kleiner als - fï¿½r <.
+ :ist gr”áer als - fr > und ist kleiner als - fr <.
 *:LESSON24_D6
 I:(6)
 D:In ASCII-ART-Manier lassen die Zeichen sich ebenfalls gut
@@ -1275,13 +1274,13 @@ G:E_LESSON24
 K:12:MENU
 B:                 Lesson 25: Die 1, das ! und das ?
 T:
- : Die Tasten 1 ! und ? werden mit den kleien Fingern
- : betï¿½tigt. Dabei ist fï¿½r das Fragezeichen die linke
- : <Shift>-Taste und fï¿½r das Ausrufezeichen die rechte
- : <Shift>-Taste gedrï¿½ckt zu halten.
+ : Die Tasten 1 ! und ? werden mit den kleinen Fingern
+ : bet„tigt. Dabei ist fr das Fragezeichen die linke
+ : <Shift>-Taste und fr das Ausrufezeichen die rechte
+ : <Shift>-Taste gedrckt zu halten.
 *:LESSON25_D1
 I:(1)
-D:1! ï¿½? 1! ï¿½? 1! ï¿½? 1ï¿½!? ?1?ï¿½ !1?! 1ï¿½!? ??!!1ï¿½ï¿½1 !ï¿½!ï¿½1??!ï¿½!1
+D:1! á? 1! á? 1! á? 1á!? ?1?á !1?! 1á!? ??!!1áá1 !á!á1??!á!1
  :.!? sind Interpunktionszeichen, die im Deutschen dazu ver-
  :wendet werden, um zu signalisieren, dass es sich bei einem
  :Satz um eine normale Aussage, einen Ausruf oder eine Frage
@@ -1289,304 +1288,315 @@ D:1! ï¿½? 1! ï¿½? 1! ï¿½? 1ï¿½!? ?1?ï¿½ !1?! 1ï¿½!? ??!!1ï¿½ï¿½1 !ï¿½!ï¿½1??!ï¿½
 I:(2)
 D:handelt. Wer war das? Wieso machst Du das? Wo kommst Du
  :denn her? Das alles sind typische Fragen, bei denen der
- :Leser sofort weiï¿½, wie er sie betonen muss.
+ :Leser sofort weiá, wie er sie betonen muss.
  :Komm her! Sei leise! Hallo! Achtung! Das wiederum sind, so
 *:LESSON25_D3
 I:(3)
-D:sagt das Interpunktionszeichen, Ausrufesï¿½tze. Sie werden
+D:sagt das Interpunktionszeichen, Ausrufes„tze. Sie werden
  :vom Leser ebenfalls deutlich anders gesprochen, als Frage-
- :sï¿½tze oder normale Sï¿½tze, die mit dem Punkt abgeschlossen
+ :s„tze oder normale S„tze, die mit dem Punkt abgeschlossen
  :werden.
 *:LESSON25_D4
 I:(4)
 D:Auf der Tastatur werden !?.<> als Sonderzeichen betrachtet,
  :was eigentlich nur bedeuten soll, dass sie von den normalen
- :Buchstaben unterscheiden werden mï¿½ssen. Ebenfalls unter-
+ :Buchstaben unterscheiden werden mssen. Ebenfalls unter-
  :schieden werden die Zahlzeichen, wie z.B. die 1. Aus Zahl-
 *:LESSON25_D5
 I:(5)
 D:zeichen werden Zahlen gebildet:
- :1 steht fï¿½r eins, 11 fï¿½r elf, 111 fï¿½r einhundertundelf.
- :Verwendet man das Wort ein in Texten, wird es fï¿½r gewï¿½hn-
- :lich als unbestimmter Artikel verwendet. Das lï¿½ï¿½t sich
+ :1 steht fr eins, 11 fr elf, 111 fr einhundertundelf.
+ :Verwendet man das Wort ein in Texten, wird es fr gew”hn-
+ :lich als unbestimmter Artikel verwendet. Das l„át sich
 *:LESSON25_D6
 I:(6)
 D:aber manchmal auch anders interpretieren: Werden kleine
- :Mengen in Texten verwendet, schreibt man dafï¿½r hï¿½ufig die
- :Zahlwï¿½rter ein, zwei oder drei. In Aufzï¿½hlungen oder bei
+ :Mengen in Texten verwendet, schreibt man dafr h„ufig die
+ :Zahlw”rter ein, zwei oder drei. In Aufz„hlungen oder bei
  :der Festlegung von Reihenfolgen hingegen benutzt man gern
 *:LESSON25_D7
 I:(7)
 D:die Zahlzeichen: 1.; 1. Platz; 1. Durchlauf; 1. Datensatz.
- :In HTML wird das Ausrufezeichen ï¿½brigens verwendet, um
- :Kommentare in die Quellen einzugï¿½gen, die dann spï¿½ter in
+ :In HTML wird das Ausrufezeichen brigens verwendet, um
+ :Kommentare in die Quellen einzufgen, die dann sp„ter in
  :der Internetseite nicht zu sehen sind.
 *:LESSON25_D8
 I:(8)
 D:<!-- Dies ist ein Kommentar in einem HTML-Quelltext -->
- :Willst Du noch mehr ï¿½ber die Bedeutung von ! und ? wissen?
+ :Willst Du noch mehr ber die Bedeutung von ! und ? wissen?
 G:E_LESSON25
 
 *:S_LESSON26
 K:12:MENU
-B:         Lesson 26: 5 8 - Prozent "%" und Klammer auf "("
+B:     Lesson 26: 2 und Anfhrungsstriche "" (=G„nsefáchen)
 T:
- : Die 5 und die 8 werden mit den Zeigefingern
- : betï¿½tigt. Fï¿½r das %-Zeichen ist beim Betï¿½tigen
- : der 5 die rechte <Shift>-Taste gedrï¿½ckt zu halten.
- : Das "Klammer-auf"-Zeichen kommt erst so richtig
- : zum Einsatz, wenn die schlieï¿½ende Klammer einge-
- : fï¿½hrt wird, dennoch: drï¿½cke beim Tippen dieses
- : Zeichens die linke <Shift>-Taste herunter.
+ : Die 2 und die "G„nsefáchen" werden mit dem
+ : Ringfinger der linken Hand gegriffen.
+ : Achte darauf, hier die rechte <Shift>-Taste
+ : zu benutzen.
 *:LESSON26_D1
 I:(1)
-D:((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
- :58% liest man als achtundfï¿½nfzig Prozent. Prozent bedeutet
- :von Hundert.
- :Berechne:
+D:ALLES WAS HIER STEHT IST, MIT FESTGESTELLTER UMSCHALTTASTE
+ :12 21 22 21 21 21 22 12 12 22 21 12 2122 22 12 21 11 21 22
+ :"Dies ist eine Aussage!"
+ :Die "G„nsefáchen" werden in der Schriftsprache verwendet,
 *:LESSON26_D2
 I:(2)
-D:58% von 1111 DM.
- :88% von 888 kg Mehl.
- :%-Werte werden benï¿½tigt, um den Anteil an einen bestimmten
- :Grundwert zu berechnen.
+D:um w”rtliche Rede deutlich zu machen. So kann man zum Bei-
+ :spiel ab sofort nicht nur sagen, dass Kafka darber etwas
+ :las, wie man etwas sagt, sondern man kann nun auch schrei-
+ :ben Kafka las:"Ich sage ihnen mal wie man das sagt!"
 *:LESSON26_D3
 I:(3)
-D:In Perl wird das %-Zeichen benutzt, um einen Hash festzu-
- :legen. %namen wird dann eine z.B. zweispaltige Liste mit
- :Vor- und Nachnamen zugeordnet, die dann in dem Program
- :ausgelesen werden kann.
+D:Darauf antwortete das Publikum:"Nee, lass mal!"
+ :Wie in "G„nsefáchen" werden die "G„nsefáchen" manchmal
+ :auch dazu verwendet, um eine nicht ganz korrekte aber ge-
+ :l„ufige Bezeichnung zu verwenden. Schlieálich sehen es
 *:LESSON26_D4
 I:(4)
-D:In der Bash ist % ein Operator fï¿½r Modulus-Operationen.
- :Das entspricht dem Rest bei einer ganzzahligen Division.
- :((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+D:die G„nse nicht gern, wenn man ihre Fáe mit einfachen An-
+ :fhrungsstrichen vergleicht.
+ :Eine Aussage im Computerbereich ist „hnlich einer Aussage
+ :im literarischen Bereich h„ufig in Anfhrungsstriche zu
+*:LESSON26_D5
+I:(5)
+D:setzen. echo "Dies ist ein Text!" bringt in der Bash
+ :Dies ist ein Text!
+ :zum Vorschein. Eingebaut als Warnungen in Scripte in der
+ :Form
+*:LESSON26_D6
+I:(6)
+D:echo "Konnte den User nicht anlegen!"
+ :Fhrt das zu sinnvollen Ausgaben, die zur rechten Zeit
+ :das richtige sagen.
 G:E_LESSON26
 
 *:S_LESSON27
 K:12:MENU
-B:         Lesson 27: 6 7 - Kaufmanns-und "&" und Slash "/"
+B:         Lesson 27: 5 8 - Prozent "%" und Klammer auf "("
+T:
+ : Die 5 und die 8 werden mit den Zeigefingern
+ : bet„tigt. Fr das %-Zeichen ist beim Bet„tigen
+ : der 5 die rechte <Shift>-Taste gedrckt zu halten.
+ : Das "Klammer-auf"-Zeichen kommt erst so richtig
+ : zum Einsatz, wenn die schlieáende Klammer einge-
+ : fhrt wird, dennoch: drcke beim Tippen dieses
+ : Zeichens die linke <Shift>-Taste herunter.
+*:LESSON27_D1
+I:(1)
+D:((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+ :58% liest man als achtundfnfzig Prozent. Prozent bedeutet
+ :von Hundert.
+ :Berechne:
+*:LESSON27_D2
+I:(2)
+D:58% von 1111 DM.
+ :88% von 888 kg Mehl.
+ :%-Werte werden ben”tigt, um den Anteil an einen bestimmten
+ :Grundwert zu berechnen.
+*:LESSON27_D3
+I:(3)
+D:In Perl wird das %-Zeichen benutzt, um einen Hash festzu-
+ :legen. %namen wird dann eine z.B. zweispaltige Liste mit
+ :Vor- und Nachnamen zugeordnet, die dann in dem Programm
+ :ausgelesen werden kann.
+*:LESSON27_D4
+I:(4)
+D:In der Bash ist % ein Operator fr Modulus-Operationen.
+ :Das entspricht dem Rest bei einer ganzzahligen Division.
+ :((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
+G:E_LESSON27
+
+*:S_LESSON28
+K:12:MENU
+B:         Lesson 28: 6 7 - Kaufmanns-und "&" und Slash "/"
 T:
  : Die Zeichen 6 7 & und / werden mit den Zeigefingern
- : betï¿½tigt. Drï¿½cke analog zu den vorangegangenen
- : Lektionen fï¿½r die Zeichen & und / die <Shift>-Tasten
+ : bet„tigt. Drcke analog zu den vorangegangenen
+ : Lektionen fr die Zeichen & und / die <Shift>-Tasten
  : mit den kleinen Finger der jeweils anderen Hand.
-*:LESSON27_D1
+*:LESSON28_D1
 I:(1)
 D:1 5 8 6 7 7 6 5 8 1 67 76 58 85 158 178 167 187 585 151 58
  :6 7 & / 16/8 7/5 1/7 6/8 5/8 6/5 8/8 5/5 7/7 6/7 1/7 1/6 &
- :Internet & Co.; Max Meier & Sï¿½hne; Grunewald & Co. KG
- :Das Kaufmanns-und & begegnet uns bewuï¿½t oder unbewuï¿½t recht
-*:LESSON27_D2
+ :Internet & Co.; Max Meier & S”hne; Grunewald & Co. KG
+ :Das Kaufmanns-und & begegnet uns bewuát oder unbewuát recht
+*:LESSON28_D2
 I:(2)
-D:hï¿½ufig. Aber es wird nicht nur in Firmenbezeichnungen ver-
- :wendet. 
+D:h„ufig. Aber es wird nicht nur in Firmenbezeichnungen ver-
+ :wendet.
  :In der Bash dient das Kaufmanns-und als Operator.
  :Ein & bedeutet bitweises UND und 
-*:LESSON27_D3
+*:LESSON28_D3
 I:(3)
 D:ein && bedeutet logisches UND.
  :In 1>&2 wird die Standardausgabe eines Befehls auf die
  :Standardfehlerausgabe umgeleitet.
- :Der Slash / wird hï¿½ufig als Zeichen fï¿½r die Division ver-
-*:LESSON27_D4
+ :Der Slash / wird h„ufig als Zeichen fr die Division ver-
+*:LESSON28_D4
 I:(4)
-D:wendet. Unter LINUX ist es ein wesentliches Zeichen fï¿½r
+D:wendet. Unter LINUX ist es ein wesentliches Zeichen fr
  :die Organisation der Verzeichnisstruktur. So ist / (root)
  :das Wurzelverzeichnis, von dem aus in Unterverseichnisse
  :verzweigt wird. /boot, /root, /opt, /usr, /var, /tmp,
-*:LESSON27_D5
+*:LESSON28_D5
 I:(5)
 D:/etc, /bin sind Standardverzeichnisse in dieser Struktur.
- :In HTML wird der Slash benutzt, um TAGs zu schlieï¿½en.
+ :In HTML wird der Slash benutzt, um TAGs zu schlieáen.
  :<html>
  :<head><title> Homepagetitel </title></head>
-*:LESSON27_D6
+*:LESSON28_D6
 I:(6)
 D:<body>
  :Seitentext inclusive weiterer HTML-Befehle.
  :</body>
  :</html>
-*:LESSON27_D7
+*:LESSON28_D7
 I:(7)
-D:Dies ist eine gï¿½ltige Grundstruktur einer HTML-Seite mit
+D:Dies ist eine gltige Grundstruktur einer HTML-Seite mit
  :sehr wenig Inhalt.
-G:E_LESSON27
-
-*:S_LESSON28
-K:12:MENU
-B:       Lesson 28: 4 9 - Dollarzeichen "$" und Klammer zu ")"
-T:
- : Noch nicht fertig
-*:LESSON28_D1
-I:(1)
-D:(49$) (49$) (48$) (57$) (56$) (78$) (89$) (18$) ($81) (51$)
- :Das $-Zeichen steht fï¿½r Dollar. Jedem ist klar, dass dieses
- :Zeichen fï¿½r eine Wï¿½hrung steht, die den Weltmarkt beherrst.
- :Dies soll jetzt kein Text ï¿½ber Umrechnungskurse werden. Die
-*:LESSON28_D2
-I:(2)
-D:wechseln ja doch regelmï¿½ï¿½ig. Stattdessen wollen wir auch
- :fï¿½r dieses $-Zeichen nach weiteren Bedeutungen fahnden.
- :Zunï¿½chst die Bash:
- :$ steht fï¿½r Variablen- oder Befehlssubstitution.
-*:LESSON28_D3
-I:(3)
-D:Beispiel fï¿½r Befehlssubstitution: Befehl1 $(Befehl2) 
- :Beispiele fï¿½r Variablensubstitution kï¿½nnen hier leider noch
- :nicht geschrieben werden, da dabei die geschweifte Klammer
- :verwendet wird.
-*:LESSON28_D4
-I:(4)
-D:Und nun Perl:
- :In Perl lassen sich mit dem $-Zeichen ganz einfach Variablen
- :festlegen.
- :Dabei kann direkt von der Tastatur <STDIN> gelesen und damit
-*:LESSON28_D5
-I:(5)
-D:die Variable gefï¿½llt werden: 
- :$eingabe = <STDIN>;
- :mit
- :chomp($eingabe);
-*:LESSON28_D6
-I:(6)
-D:wird das Newline-Zeichen am Ende der Eingabe entfernt.
- :Dabei wird der Inhalt der Variablen $eingabe bereits ausge-
- :lesen und verarbeitet.
 G:E_LESSON28
 
 *:S_LESSON29
 K:12:MENU
-B:     Lesson 29: 3 0 - Paragraph "ï¿½" und Gleichheitszeichen "="
+B:       Lesson 29: 4 9 - Dollarzeichen "$" und Klammer zu ")"
 T:
  : Ab jetzt kann geklammert werden. Die Tasten
  : mit den Zeichen 4 9 $ und ) werden mit den
- : Mittelfingern betï¿½tigt. Fï¿½r die Zweitbelegung
+ : Mittelfingern bet„tigt. Fšr die Zweitbelegung
  : wird wiederum die <Shift>-Taste benutzt.
  : Achte nach wie vor darauf, die Tasten einige
  : Male vorzutasten, bevor Du die Lektion beginnst.
 *:LESSON29_D1
 I:(1)
-D:ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30=ï¿½30 
- :134567890 098765431 !ï¿½$%&/()= =)(/&%$ï¿½! 890 60 470 160 3140
- :===========================================================
- :ï¿½ - Paragraph
+D:(49$) (49$) (48$) (57$) (56$) (78$) (89$) (18$) ($81) (51$)
+ :Das $-Zeichen steht fr Dollar. Jedem ist klar, dass dieses
+ :Zeichen fr eine W„hrung steht, die den Weltmarkt beherrst.
+ :Dies soll jetzt kein Text ber Umrechnungskurse werden. Die
 *:LESSON29_D2
 I:(2)
-D:Dieses Zeichen steht fï¿½r Recht und Ordnung auf der ganzen
- :Welt. Sie kennen das:
- :ï¿½1 Jeder macht seins.
- :ï¿½2 Wenn keine anderen Paragraphen entgegenstehen, gilt ï¿½1!
+D:wechseln ja doch regelm„áig. Stattdessen wollen wir auch
+ :fr dieses $-Zeichen nach weiteren Bedeutungen fahnden.
+ :Zun„chst die Bash:
+ :$ steht fr Variablen- oder Befehlssubstitution.
 *:LESSON29_D3
 I:(3)
-D:===========================================================
- :Selbst das Wort Paragraphenreiter kommt nicht von ungefï¿½hr.
- :Schlieï¿½lich sieht ï¿½ aus wie ein Seepferdchen.
- :===========================================================
+D:Beispiel fr Befehlssubstitution: Befehl1 $(Befehl2)
+ :Beispiele fr Variablensubstitution k”nnen hier leider noch
+ :nicht geschrieben werden, da dabei die geschweifte Klammer
+ :verwendet wird.
 *:LESSON29_D4
 I:(4)
-D:Das = (in Worten: ist gleich) steht ebenfalls fï¿½r Gerech-
- :tigkeit. Eine Gleichung ist nur dann eine wahre Aussage,
- :wenn die Krï¿½fte (Terme?, Werte?) auf beiden Seiten gerecht
- :verteilt sind.
+D:Und nun Perl:
+ :In Perl lassen sich mit dem $-Zeichen ganz einfach Variablen
+ :festlegen.
+ :Dabei kann direkt von der Tastatur <STDIN> gelesen und damit
 *:LESSON29_D5
 I:(5)
-D: 1+1=2
- : 2+2=4
- : 34567+56780=91347
- : f(x)=3*x+7
+D:die Variable gefllt werden:
+ :$eingabe = <STDIN>;
+ :mit
+ :chomp($eingabe);
 *:LESSON29_D6
 I:(6)
-D:In der Programmierung nimmt man mit = oder == eine Zuwei-
- :sung vor.
- :Schlimmstenfalls lï¿½ï¿½t sich das = aber schï¿½n als Trennzei-
- :chen fï¿½r Textabsï¿½tze verwenden.
-*:LESSON29_D7
-I:(7)
-D:===========================================================
+D:wird das Newline-Zeichen am Ende der Eingabe entfernt.
+ :Dabei wird der Inhalt der Variablen $eingabe bereits ausge-
+ :lesen und verarbeitet.
 G:E_LESSON29
 
 *:S_LESSON30
 K:12:MENU
-B:       Lesson 30: 2 und Anfï¿½hrungsstriche "" (=Gï¿½nsefï¿½ï¿½chen)
+B:    Lesson 30: 3 0 - Paragraph "õ" und Gleichheitszeichen "="
 T:
- : Die 2 und die "Gï¿½nsefï¿½ï¿½chen" werden mit dem 
- : Ringfinger der linken Hand gegriffen.
- : Achte darauf, hier die rechte <shift>-Taste
- : zu benutzen.
+ : Hier wird das Hochgreifen mit den Ringfingern
+ : gebt, um die Zeichen 3 0 õ = einzugeben.
+ : Achte auf die wechselseitige Benutzung der
+ : <Shift>-Taste.
 *:LESSON30_D1
 I:(1)
-D:ALLES WAS HIER STEHT IST, MIT FESTGESTELLTER UMSCHALTTASTE
- :1234567890 0987654321 20 21 22 23 24 25 26 27 28 29 2222 2
- :"Dies ist eine Aussage!"
- :Die "Gï¿½nsefï¿½ï¿½chen" werden in der Schriftsprache verwendet,
+D:õ30=õ30=õ30=õ30=õ30=õ30=õ30=õ30=õ30=õ30=õ30=õ30=õ30=õ30=õ30
+ :134567890 098765431 !õ$%&/()= =)(/&%$õ! 890 60 470 160 3140
+ :===========================================================
+ :õ - Paragraph
 *:LESSON30_D2
 I:(2)
-D:um wï¿½rtliche Rede deutlich zu machen. So kann man zum Bei-
- :spiel ab sofort nicht nur sagen, dass Kafka darï¿½ber etwas
- :las, wie man etwas sagt, sondern man kann nun auch schrei-
- :ben Kafka las:"Ich sage ihnen mal wie man das sagt!"
+D:Dieses Zeichen steht fr Recht und Ordnung auf der ganzen
+ :Welt. Sie kennen das:
+ :õ1 Jeder macht seins.
+ :õ2 Wenn keine anderen Paragraphen entgegenstehen, gilt õ1!
 *:LESSON30_D3
 I:(3)
-D:Darauf antwortete das Publikum:"Nee, lass mal!"
- :Wie in "Gï¿½nsefï¿½ï¿½chen" werden die "Gï¿½nsefï¿½ï¿½chen" manchmal
- :auch dazu verwendet, um eine nicht ganz korrekte aber ge-
- :lï¿½ufige Bezeichnung zu verwenden. Schlieï¿½lich sehen es
+D:===========================================================
+ :Selbst das Wort Paragraphenreiter kommt nicht von ungef„hr.
+ :Schlieálich sieht õ aus wie ein Seepferdchen.
+ :===========================================================
 *:LESSON30_D4
 I:(4)
-D:die Gï¿½nse nicht gern, wenn man ihre Fï¿½ï¿½e mit einfachen An-
- :fï¿½hrungsstrichen vergleicht.
- :Eine Aussage im Computerbereich ist ï¿½hnlich einer Aussage
- :im literarischen Bereich hï¿½ufig in Anfï¿½hrungsstriche zu
+D:Das = (in Worten: ist gleich) steht ebenfalls fr Gerech-
+ :tigkeit. Eine Gleichung ist nur dann eine wahre Aussage,
+ :wenn die Kr„fte (Terme?, Werte?) auf beiden Seiten gerecht
+ :verteilt sind.
 *:LESSON30_D5
 I:(5)
-D:setzen. echo "Dies ist ein Text!" bringt in der Bash
- :Dies ist ein Text!
- :zum Vorschein. Eingebaut als Warnungen in Scripte in der
- :Form 
+D: 2-1=1
+ : 4-2=2
+ : 91347-56780=34567
+ : f(x)=3*x-7
 *:LESSON30_D6
 I:(6)
-D:echo "Konnte den User nicht anlegen!"
- :Fï¿½hrt das zu sinnvollen Ausgaben, die zur rechten Zeit
- :das richtige sagen.
+D:In der Programmierung nimmt man mit = oder == eine Zuwei-
+ :sung vor.
+ :Schlimmstenfalls l„át sich das = aber sch”n als Trennzei-
+ :chen fr Textabs„tze verwenden.
+*:LESSON30_D7
+I:(7)
+D:===========================================================
 G:E_LESSON30
 
 *:S_LESSON31
 K:12:MENU
-B:             Lesson 31: Sonderzeichen ^ und ï¿½ ï¿½ und `
+B:            Lesson 31: Sonderzeichen ø und die Akzente
 T:
- : ^ und ï¿½ ï¿½ und ` werden mit den kleinen Fingern
- : gegriffen. Dabei ist wieder auf die wechselseitige
- : Benutzung der <Shift>-Taste zu achten.
+ : ø und die Akzente auf ˆ, ‚ und Š werden mit den
+ : kleinen Fingern gegriffen. Dabei ist wieder auf
+ : die wechselseitige Benutzung der <Shift>-Taste
+ : zu achten.
+ : 
+ : Es sollte im System ein Tastaturmode eingestellt
+ : sein, der solche zusammengesetzten Zeichen wie
+ : ‚Šˆ erlaubt. Die Einzelstellung (insofern mit dem
+ : aktuellen Zeichensatz zul„ssig) kann dann mit
+ : einem folgenden Leerzeichen erfolgen.
 *:LESSON31_D1
 I:(1)
-D:^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
- :ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ 
- :ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½
- :` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` `
+D:^ ˆ ^ ˆ ^ ˆ ^ ˆ ^ ˆ ^ ˆ ^ ˆ ^ ˆ ^ ˆ ^ ˆ ^ ˆ ^ ˆ ^ ˆ ^ ˆ ^
+ :ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø ø
+ :‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚ ‚
+ :Š ` Š ` Š ` Š ` Š ` Š ` Š ` Š ` Š ` Š ` Š ` Š ` Š ` Š ` Š
 *:LESSON31_D2
 I:(2)
-D:Heute werden Tageshï¿½chsttemperaturen von 21ï¿½C erwartet.
- :Bei 0ï¿½C liegt der Gefrierpunkt des Wassers.
- :Wasser siedet bei 100 ï¿½C.
+D:Heute werden Tagesh”chsttemperaturen von 21øC erwartet.
+ :Bei 0øC liegt der Gefrierpunkt von Wasser.
+ :Wasser siedet bei 100 øC.
  :Das ^ ist ein Sonderzeichen, das z.B. beim Programmieren
 *:LESSON31_D3
 I:(3)
-D:in C++ das Bit-Exclusive-ODER XOR reprï¿½sentiert.
+D:in C++ das Bit-Exclusive-ODER XOR repr„sentiert.
  :^ ist dort also ein Operator.
  :` (Backquotes) werden in Perl wie in einer Shell dazu
- :verwendet, Ausgaben eines Programms als Daten zu ï¿½ber-
+ :verwendet, Ausgaben eines Programms als Daten zu ber-
 *:LESSON31_D4
 I:(4)
-D:nehmen.
+D:nehmen:
  :$jetzt = "Die aktuelle Uhrzeit ist ".`date`
  :foreach $_ (`who`) ...
- : ï¿½ï¿½ï¿½ï¿½ï¿½
+ :‚ (accent aigu), Š (accent grave) und ˆ (accent circonflex)
 *:LESSON31_D5
 I:(5)
-D:  ï¿½ ï¿½ 
- :   >
- :   `
+D:sind zwar keine deutschen Buchstaben, kommen jedoch in
+ :einigen L„ndern Europas vor, z.B. Frankreich.
+ :Der "accent aigu" sollte nicht als Apostroph (siehe n„chste
+ :Lektion) verwendet werden!
 G:E_LESSON31
 
 *:S_LESSON32
@@ -1594,104 +1604,106 @@ K:12:MENU
 B:                 Lesson 32: Sonderzeichen + * # '
 T:
  : + * # und ' sind mit dem kleinen Finger der rechten
- : Hand zu betï¿½tigen. Achte beim * und ' auf die 
+ : Hand zu bet„tigen. Achte beim * und ' auf die 
  : Benutzung der linken <Shift>-Taste!
+ : ' (Apostroph) ist nicht mit dem accent aigu zu
+ : verwechseln!
 *:LESSON32_D1
 I:(1)
 D:+*#' +*#' +'*# #*#' *#' #+'+ +##+ '++' ++'#*# #+#+#+#+* #*
- :	3+3=6
- :	3*3=9
- :#include <gtk.h>
+ :  3+3=6
+ :  3*3=9
+ :#include <wx/wx.h>
 *:LESSON32_D2
 I:(2)
 D:# dies ist ein Kommentar
  :## dies auch
- :c++ ist eine objektorientierte Programmiersprache.
- :g++ ist nichts anderes.
+ :C++ ist eine objektorientierte Programmiersprache.
+ :Berechne!
 *:LESSON32_D3
 I:(3)
-D:Berechne!
- :	3+3+3+3=
- :	3*3*3*3=
- :	9*9*9*9=
+D:  3+3+3+3=
+ :  3*3*3*3=
+ :  9*9*9*9=
+ :  9+9+9+9=
 *:LESSON32_D4
 I:(4)
-D:	9+9+9+9=
- :Rechenoperationen in der Mathematik:
- :	+ ist das Zeichen fï¿½r die Addition.
- :	* ist das Zeichen fï¿½r Multiplikation.
+D:Rechenoperationen in der Mathematik:
+ :  + ist das Zeichen fr die Addition.
+ :  * ist das Zeichen fr Multiplikation.
+ :'Hier steht etwas drin!'
 *:LESSON32_D5
 I:(5)
-D:'Hier steht etwas drin!'
- :In literarischen Texten wird das Zeichen ' hï¿½ufig dafï¿½r
- :verwendet, um eine wï¿½rtliche Rede: ("Du hast doch gesagt,
+D:In literarischen Texten wird das Zeichen ' h„ufig dafr
+ :verwendet, um eine w”rtliche Rede: ("Du hast doch gesagt,
  :dass ich den Film noch zuende sehen darf.") von Gedanken,
+ :die nicht ausgesprochen werden ('Immer muss ich um acht
 *:LESSON32_D6
 I:(6)
-D:die nicht ausgesprochen werden ('Immer muss ich um acht
- :ins Bett! Das ist echt unfair!') zu unterscheiden.
+D:ins Bett! Das ist echt unfair!') zu unterscheiden.
  :So kann man sehr sinnreiche Texte formulieren, in denen
  :man genau darauf achten muss, was gesagt und was nur ge-
+ :dacht wurde.
 *:LESSON32_D7
 I:(7)
-D:dacht wurde.
- :"Ein schï¿½nes Kleid haben sie heute wiede an, Frau Meier!"
+D:"Ein sch”nes Kleid haben sie heute wiede an, Frau Meier!"
  :'Den Fummel haben sie wohl aus dem Schlussverkauf, oder?'
 G:E_LESSON32
 
 *:S_LESSON33
 K:12:MENU
-B:      Lesson 33: Sitzung (ein ï¿½bungstext mit "Gï¿½nsefï¿½ï¿½chen")
+B:    Lesson 33: Sitzung (ein šbungstext mit "G„nsefáchen")
 T:
- : ï¿½bungstext: 
- : Versuche diesen Text mï¿½glichst fehlerfrei zu tippen.
+ : šbungstext: 
+ : Versuche diesen Text m”glichst fehlerfrei zu tippen.
  : Steigere Dein Tempo erst, wenn Du Dich absolut 
- : sicher fï¿½hlst.
+ : sicher fhlst.
 *:LESSON33_D1
 I:(1)
-D:Sitzung                  frei erschwindelt von: A. Kalbitz
+D:Sitzung
+ :frei erschwindelt von: A. Kalbitz
  :==========================================================
- :"Hast du dir das auch gut ï¿½berlegt?" Rainer schaute zwei-
- :felnd auf Felix und man sah seinen Augen an, dass da nicht
+ :"Hast du dir das auch gut berlegt?" Rainer schaute zwei-
 *:LESSON33_D2
 I:(2)
-D:nur Zweifel, sondern auch besseres Wissen in dieser Frage
- :lag. "ï¿½h, ich dachte, ja,", kam Felix zï¿½gerlich mit der
+D:felnd auf Felix und man sah seinen Augen an, dass da nicht
+ :nur Zweifel sondern auch besseres Wissen in dieser Frage
+ :lag. "h, ich dachte ja,", kam Felix z”gerlich mit der
  :Sprache raus, "wenn ich schon Linux auf dem Schulnetz fah-
- :re, dann sollen auch die Schï¿½ler die Mï¿½glichkeit haben,
 *:LESSON33_D3
 I:(3)
-D:mit Linux zu arbeiten." Rainer sah immer noch skeptisch
+D:re, dann sollen auch die Schler die M”glichkeit haben,
+ :mit Linux zu arbeiten." Rainer sah immer noch skeptisch
  :aus. "Dann bist Du aber erst einmal der Einzige, der das
- :benutzen und den Schï¿½lern verstï¿½ndlich machen kann."
- :"Das ist schon klar, aber ich bin guter Hoffnung, das
+ :benutzen und den Schlern verst„ndlich machen kann."
 *:LESSON33_D4
 I:(4)
-D:das System so nach und nach ï¿½berzeugt!" - 
+D:"Das ist schon klar, aber ich bin guter Hoffnung, das
+ :das System so nach und nach berzeugt!" -
  :"Und die Kollegen?" - "Bekommen eine Schulung, wenn der
  :Bedarf da ist." - "Na gut, wenn Du glaubst, dass das so
- :machbar ist, dann gehen wir es an, ich bezweifle nur,
 *:LESSON33_D5
 I:(5)
-D:dass du damit viele erreichen wirst." Felix grinste nun
- :breit ï¿½bers ganze Gesicht: "Warten wir es doch ab."
- :Nun sah er aus, als hï¿½tte er ein As aus dem ï¿½rmel gezogen.
- :"Wir haben bisher niemanden dazu ï¿½berredet, sich einen
+D:machbar ist, dann gehen wir es an, ich bezweifle nur,
+ :dass du damit viele erreichen wirst." Felix grinste nun
+ :breit bers ganze Gesicht: "Warten wir es doch ab."
+ :Nun sah er aus, als h„tte er ein As aus dem rmel gezogen.
 *:LESSON33_D6
 I:(6)
-D:Computer "anzutun", und selbst unter den ï¿½lteren Kollegen
+D:"Wir haben bisher niemanden dazu berredet, sich einen
+ :Computer "anzutun", und selbst unter den „lteren Kollegen
  :wird die Zahl derjenigen, die diese Technik akzeptieren
- :nun doch immer grï¿½ï¿½er, warum soll sich dass denn mit dem
- :interessantesten System, das die Branche zu bieten hat
+ :nun doch immer gr”áer, warum soll sich dass denn mit dem
 *:LESSON33_D7
 I:(7)
-D:nicht bald ï¿½hnlich einstellen. Letztendlich setzt sich die
+D:interessantesten System, das die Branche zu bieten hat
+ :nicht bald „hnlich einstellen. Letztendlich setzt sich die
  :Neugierde doch durch." Nun grinste auch Rainer, "Na gut,
- :ich kaufe mir schon mal fï¿½r meinen privaten Rechner eine
- :neue Festplatte, damit ich dann mitreden kann, wenn es 
+ :ich kaufe mir schon mal fr meinen privaten Rechner eine
 *:LESSON33_D8
 I:(8)
-D:losgeht." - "Siehste! Es wirkt schon!" ;-)
+D:neue Festplatte, damit ich dann mitreden kann, wenn es
+ :losgeht." - "Siehste! Es wirkt schon!" ;-)
 G:E_LESSON33
 
 *:S_LESSON34
@@ -1700,40 +1712,39 @@ B:                 Lesson 34: <Tab> und <Backspace>
 T:
  : <Tab> und <Backspace>:
  : Das ist nicht ganz richtig. Die <BACKSPACE>-Taste
- : funktioniert in unserem Programm nicht.
- : Sie dient dem Lï¿½schen von Zeichen, also der
- : Fehlerkorrektur. Das widerspricht dem Ziel dieses
- : Programms, mï¿½glichst fehlerfrei zu schreiben.
- : Diese Tasten werden mit den kleinen Fingern betï¿½tigt. 
+ : dient dem L”schen von Zeichen, also der
+ : Fehlerkorrektur. Das widerspricht dem Ziel
+ : m”glichst fehlerfrei zu schreiben.
+ : Diese Tasten werden mit den kleinen Fingern bet„tigt.
 *:LESSON34_D1
 I:(1)
 D:ALLES WAS HIER STEHT IST, MIT FESTGESTELLTER UMSCHALTTASTE
  :Die <TAB>-Taste wird verwendet, um Text in Spalten zu sor-
- :tieren, oder Textstellen einzurï¿½cken. Damit verleiht man
- :dem Text ein ï¿½bersichtlicheres Aussehen. 
+ :tieren, oder Textstellen einzurcken. Damit verleiht man
+ :dem Text ein bersichtlicheres Aussehen. 
 *:LESSON34_D2
 I:(2)
-D:Die <BACKSPACE>-Taste kann hier leider nicht geï¿½bt werden,
- :was allerdings auch nciht vonnï¿½ten ist, da sie lediglich
+D:Die <BACKSPACE>-Taste kann hier leider nicht gebt werden,
+ :was allerdings auch nicht notwendig ist, da sie lediglich
  :zur Fehlerkorrektur dient. Du wirst sie also nach erfolg-
  :reicher Absolvierung dieses Trainings selten brauchen.
 *:LESSON34_D3
 I:(3)
 D:Regeln zur Anfertigung einer Tabelle:
- :	1. ï¿½berprï¿½fe die maximale Anzahl an Zeichen je
+ :	1. šberprfe die maximale Anzahl an Zeichen je
  :	Feld.
  :	2. Schreibe den Tabellenkopf und separiere die
 *:LESSON34_D4
 I:(4)
 D:	Felder mit der Tab-Taste (notfalls durch mehr-
- :	maliges Betï¿½tigen dieser Taste.
+ :	maliges Bet„tigen dieser Taste.
  :	3. Bewege Dich beim Eintragen der Datenzeilen
  :	ebenfalls mit der Tab-Taste durch die Felder.
 *:LESSON34_D5
 I:(5)
-D:Name		Vorname		Ort		Telefon
+D:Name		Vorname		Ort			Telefon
  :=======================================================
- :Mï¿½ller		Sergej		Mï¿½hle		9877899
+ :Mller		Sergej		Mhle		9877899
  :Muster		Moritz		Modigow		9876532
 *:LESSON34_D6
 I:(6)
@@ -1743,89 +1754,267 @@ D:Flax		Felix		Fulda		1112233
  :Schulz		Severine	Sadenbeck	333333
 *:LESSON34_D7
 I:(7)
-D:Bï¿½r		Belinda		Waldburg	32456
+D:B„r		Belinda		Waldburg	32456
  :=======================================================
 G:E_LESSON34
 
 *:S_LESSON35
 K:12:MENU
-B:             Lesson 35: Die Drittbelegung: |@ï¿½ï¿½{[]}\~
+B:            Lesson 35: Die Drittbelegung: |@ıü{[]}\~
 T:
- : Die Drittbelegung: |@ï¿½ï¿½{[]}\~
- : Die Tasten der Drittbelegung gehï¿½ren nicht zum
+ : Die Drittbelegung: |@ıü{[]}\~
+ : Die Tasten der Drittbelegung geh”ren nicht zum
  : Standard Zehn-Finger-System.
- : Unser Vorschlag: Betï¿½tige mit dem Zeigefinger
- : oder Daumen der rechten Hand die <Alt Gr>-Taste
- : und tippe zusï¿½tzlich die zugehï¿½rige Taste.
- : ï¿½ber vor allem das Spreizen bzw. die Drehung
+ : Unser Vorschlag: Bet„tige mit dem Daumen der
+ : rechten Hand die <Alt Gr>-Taste und tippe
+ : zus„tzlich die zugeh”rige Taste.
+ : šber vor allem das Spreizen bzw. die Drehung
  : der rechten Hand bei \ und ~.
 *:LESSON35_D1
 I:(1)
-D:Drittbelegung: Das sind die Zeichen ï¿½ ï¿½ { [ ] } \ @ ~ |
+D:Drittbelegung: Das sind die Zeichen ı ü { [ ] } \ @ ~ |
  :"Quadrat"-Zeichen="Hoch zwei":
- :	f(x)=2xï¿½+2x+2
- :	mmï¿½, cmï¿½, dmï¿½, mï¿½, kmï¿½
+ :	f(x)=2xı+2x+2
+ :	mmı, cmı, dmı, mı, kmı
 *:LESSON35_D2
 I:(2)
-D:	f(x)=sinï¿½(x)+cosï¿½(x)
+D:	f(x)=sinı(x)+cosı(x)
  :"Kubik"-Zeichen="Hoch drei":
- :	f(x)=xï¿½+2xï¿½+x+1
- :	mmï¿½, cmï¿½, mï¿½, kmï¿½
+ :	f(x)=xü+2xı+x+1
+ :	mmü, cmü, mü, kmü
 *:LESSON35_D3
 I:(3)
-D:	1l=1dmï¿½
+D:	1l=1dmü
  :"geschweifte" und "eckige" Klammern:
  :	{} []
  :	y={3x*[2x-1]-4}
 *:LESSON35_D4
 I:(4)
-D:	if test "${!arg_num}" = "-v"; then 
+D:	if test "${!arg_num}" = "-v"; then
  :		verbose on
  :"Backslash":
  :	\ wir verwendet, um eine Befehlszeile in einem
 *:LESSON35_D5
 I:(5)
-D:	Script auf der foldenden Zeile weiterzufï¿½hren. 
+D:	Script auf der foldenden Zeile weiterzufhren.
  :"Klammeraffe":
  :	@ kommt in E-Mailadressen vor.
  :	moritz@musterdomain.de
 *:LESSON35_D6
 I:(6)
 D:	user@localhost
- :	@ Wird z.B. in Perl fï¿½r zur Festlegung von 
+ :	@ Wird z.B. in Perl fr zur Festlegung von
  :	Arrays oder als Feldplatzhalter verwendet.
- :	@nonsens("Quatsch","Witz","Blï¿½dsinn")
+ :	@nonsens("Quatsch","Witz","Bl”dsinn")
 *:LESSON35_D7
 I:(7)
 D:	@<<<<<<<
  :"Tilde":
- :	~ dient z.B. standardmï¿½ï¿½ig als Kennzeichnung fï¿½r
- :	Sicherheitskopien, die von ln angelegt werden. 
+ :	~ dient z.B. standardm„áig als Kennzeichnung fr
+ :	Sicherheitskopien, die von ln angelegt werden.
 *:LESSON35_D8
 I:(8)
 D:"Pipe":
- :	| wird als arithmetischer Ausdruck fï¿½r bitweises
+ :	| wird als arithmetischer Ausdruck fr bitweises
  :	ODER z.B. in der bash verwendet.
  :	|| hingegen kennzeichnet ein logisches ODER
 *:LESSON35_D9
 I:(9)
-D:	|= ist ein ODER mit anschlieï¿½ender Zuweisung
+D:	|= ist ein ODER mit anschlieáender Zuweisung
  :	Mit | lassen sich Ausgaben eines Befehls in
  :	andere Anwendungen umleiten.
  :	ls *.jpg | less listet alle Dateien des aktuellen
 *:LESSON35_D10
 I:(10)
 D:	Verzeichnisses in less auf.
- :Die Zeichen der Drittbelegung haben mit der Einfï¿½hrung des
+ :Die Zeichen der Drittbelegung haben mit der Einfhrung des
  :Computers in das Leben der Schreibenden Einzug gehalten.
  :Aus diesem Grund haben wir sie in den Kurs aufgenommen.
 *:LESSON35_D11
 I:(11)
-D:Im ursprï¿½nglichen Zehnfinger-System gibt es keine 
+D:Im ursprnglichen Zehnfinger-System gibt es keine
  :Entsprechung, da auf alten Schreibmaschinen die <Alt Gr>-
  :Taste nicht existiert.
- :{ï¿½ï¿½ï¿½} || {ï¿½ï¿½ï¿½} || [ï¿½ï¿½ï¿½] || [ï¿½ï¿½ï¿½] || \\\ || @@@ || ~~~ ||
+ :{ııı} || {üüü} || [ııı] || [üüü] || \\\ || @@@ || ~~~ ||
 G:E_LESSON35
+
+*:S_LESSON36
+K:12:MENU
+B:     Lesson 36: Fertig: Ein tipptrainerspezfischer šbungstext
+T:
+ : Der absolute H„rtetest!
+ : Wenn Du diesen Quelltext tippst, musst
+ : Du nicht gleich alles verstehen. Dieser
+ : Text war einmal Bestandteil dieses
+ : Programms. Er sorgte fr ein ordnungs-
+ : gem„áes Erscheinen des Info-Fensters.
+*:LESSON36_D1
+I:(1)
+D:/***************************************************************************
+ :                          info.cpp  -  description                              
+ :    begin                : Sun Jan 30 14:40:59 MET 2000 
+ :    copyright            : (C) 1999 by Daniel Reith                         
+*:LESSON36_D2
+I:(2)
+D:    email                : DanR@gmx.de
+ : ***************************************************************************/
+ :/***************************************************************************
+ : *                                                                         *
+*:LESSON36_D3
+I:(3)
+D: *   This program is free software; you can redistribute it and/or modify  *
+ : *   it under the terms of the GNU General Public License as published by  *
+ : *   the Free Software Foundation; either version 2 of the License, or     *
+ : *   (at your option) any later version.                                   * 
+*:LESSON36_D4
+I:(4)
+D: *                                                                         *
+ : ***************************************************************************/
+ :#include "info.h"
+ :#include "wx/image.h"
+*:LESSON36_D5
+I:(5)
+D:#include <config.h>
+ :enum
+ :{
+ :  C = 211,
+*:LESSON36_D6
+I:(6)
+D:  OK = 212
+ :};
+ :BEGIN_EVENT_TABLE(Info_Dialog, wxDialog)
+ :  EVT_BUTTON(OK, Info_Dialog::OnSchliessen)
+*:LESSON36_D7
+I:(7)
+D:END_EVENT_TABLE()
+ ://*********************************************************
+ ://* Konstruktor
+ ://*********************************************************
+*:LESSON36_D8
+I:(8)
+D:Info_Dialog::Info_Dialog(wxWindow* parent, wxWindowID id, const wxString& title,
+ :const wxPoint& pos = wxDefaultPosition, 
+ :const wxSize& size =wxDefaultSize, long style = wxDEFAULT_DIALOG_STYLE,
+ :const wxString& name = "dialogBox") : wxDialog(parent, id, title, pos, size,
+ :style, name)
+ :{
+ :  SetAutoLayout(TRUE);
+*:LESSON36_D9
+I:(9)
+D:#ifdef __WXMSW__
+ :  wxBitmap::AddHandler(new wxPNGFileHandler);
+ :#endif
+ :#ifdef __WXGTK__
+*:LESSON36_D10
+I:(10)
+D:  wxImage::AddHandler(new wxPNGHandler);
+ :#endif
+ :  wxString f;
+ :  f << L_DIR << "logo.png";
+*:LESSON36_D11
+I:(11)
+D:  logo = new wxBitmap(f , wxBITMAP_TYPE_PNG);
+ :  canvas = new MyCanvas(this,  logo, wxDefaultPosition, wxDefaultSize);
+ :  wxLayoutConstraints *c1 = new wxLayoutConstraints;
+ :  c1->top.SameAs(this, wxTop, 5);
+*:LESSON36_D12
+I:(12)
+D:  c1->left.SameAs(this, wxLeft, 5);
+ :  c1->width.PercentOf(this, wxWidth, 48);
+ :  c1->height.PercentOf(this, wxHeight, 80);
+ :  canvas->SetConstraints(c1);
+*:LESSON36_D13
+I:(13)
+D:  info_text = new wxStaticText(this, -1, "", wxDefaultPosition, wxDefaultSize);
+ :  wxLayoutConstraints *c3 = new wxLayoutConstraints;
+ :  c3->top.SameAs(this, wxTop, 5);
+ :  c3->left.SameAs(canvas, wxRight, 15);
+*:LESSON36_D14
+I:(14)
+D:  c3->width.PercentOf(this, wxWidth, 47);
+ :  c3->height.PercentOf(this, wxHeight, 80);
+ :  info_text->SetConstraints(c3);
+ :  wxString msg;
+*:LESSON36_D15
+I:(15)
+D:  msg << _("PingoS Tipptrainer\n")
+ :      << _("------------------\n")
+ :      << _("Version:\t") << VERSION
+ :      << _("\nhttp://www.pingos.schulnetz.org/tipptrainer\n")
+*:LESSON36_D16
+I:(16)
+D:      << _("Ver”ffentlicht unter der GPL 2.0\n")
+ :      << _("\nAutoren:\n")
+ :      << "Andreas Kalbitz \n\t(felix@musik-workshop.de)\n"
+ :      << "Matthias Kleine \n\t(Matthias.Kleine@selflinux.de)\n"
+*:LESSON36_D17
+I:(17)
+D:      << "Daniel Reith (DanR@gmx.de)\n"
+ :      << _("\nFeedback bitte an: \n\ttipptrainer@reith.8m.com");
+ :  info_text->SetLabel(msg);
+ :  ok = new wxButton(this, OK, _("Schlieáen"));
+*:LESSON36_D18
+I:(18)
+D:  wxLayoutConstraints *c2 = new wxLayoutConstraints;
+ :  c2->centreX.SameAs(this, wxCentreX);
+ :  c2->top.SameAs(canvas, wxBottom, 10);
+ :  c2->width.PercentOf(this, wxWidth, 30);
+*:LESSON36_D19
+I:(19)
+D:  c2->height.PercentOf(this, wxHeight, 9);
+ :  ok->SetConstraints(c2);
+ :}
+ ://*********************************************************
+*:LESSON36_D20
+I:(20)
+D://* Destruktor
+ ://*********************************************************
+ :Info_Dialog::~Info_Dialog()
+ :{
+*:LESSON36_D21
+I:(21)
+D:}
+ ://**********************************************************
+ ://* Fenster schlieáen
+ ://**********************************************************
+*:LESSON36_D22
+I:(22)
+D:void Info_Dialog::OnSchliessen(wxCommandEvent* event)
+ :{
+ :  EndModal(GetReturnCode());
+ :}
+*:LESSON36_D23
+I:(23)
+D:BEGIN_EVENT_TABLE(MyCanvas, wxScrolledWindow)
+ :    EVT_PAINT(MyCanvas::OnPaint)
+ :END_EVENT_TABLE()
+ :MyCanvas::MyCanvas(wxWindow *parent, wxBitmap *b, const wxPoint& pos,
+ :const wxSize& size):
+*:LESSON36_D24
+I:(24)
+D: wxScrolledWindow(parent, -1, pos, size)
+ :{
+ :  logo = b;
+ :}
+*:LESSON36_D25
+I:(25)
+D:MyCanvas::~MyCanvas()
+ :{
+ :}
+ :void MyCanvas::OnPaint(wxPaintEvent& WXUNUSED(event))
+*:LESSON36_D26
+I:(26)
+D:{
+ :  wxPaintDC dc(this);
+ :  wxMemoryDC memDC;
+ :  memDC.SelectObject(* logo);
+*:LESSON36_D27
+I:(27)
+D:  dc.Blit(5, 25, logo->GetWidth(), logo->GetHeight(), & memDC,
+ : 0, 0, wxCOPY, TRUE);
+ : memDC.SelectObject(wxNullBitmap);
+ :}
+G:E_LESSON36
 
 
 # jump-table
@@ -1966,19 +2155,23 @@ Q: Do you want to continue to lesson 35 [Y/N] ?
 N:MENU
 G:S_LESSON35
 *:E_LESSON35
+Q: Do you want to continue to lesson 36 [Y/N] ?
+N:MENU
+G:S_LESSON36
+*:E_LESSON36
 G:MENU
 
 *:MENU
-M: "tipptrainer 0.4 lessons"
- :S_LESSON1 "Lesson 1: Die Grundreihe a s d f - - j k l ï¿½"
+M: "tipptrainer 0.6.0 lessons"
+ :S_LESSON1 "Lesson 1: Die Grundreihe a s d f - - j k l ”"
  :S_LESSON2 "Lesson 2: Erste Wortbildungen mit der Grundreihe"
  :S_LESSON3 "Lesson 3: Die Buchstaben "e" und "i""
  :S_LESSON4 "Lesson 4: Die Buchstaben "g" und "h""
  :S_LESSON5 "Lesson 5: Die Buchstaben "w" und "o""
  :S_LESSON6 "Lesson 6: Die Buchstaben "r" und "u""
- :S_LESSON7 "Lesson 7: Wortï¿½bungen mit dem Bekannten "
+ :S_LESSON7 "Lesson 7: Wortbungen mit dem Bekannten "
  :S_LESSON8 "Lesson 8: Die Buchstaben "t" und "z""
- :S_LESSON9 "Lesson 9: Hï¿½ufigkeitswï¿½rter - Schnelltippï¿½bung"
+ :S_LESSON9 "Lesson 9: H„ufigkeitsw”rter - Schnelltippbung"
  :S_LESSON10 "Lesson 10: Die Buchstaben "q" und "p""
  :S_LESSON11 "Lesson 11: Die Buchstaben "v" und "m""
  :S_LESSON12 "Lesson 12: Die Buchstaben "b" und "n" "
@@ -1986,8 +2179,8 @@ M: "tipptrainer 0.4 lessons"
  :S_LESSON14 "Lesson 14: Zum "x"ten Mal und Punkt"
  :S_LESSON15 "Lesson 15: ASCII-ART -etwas Auflockerung"
  :S_LESSON16 "Lesson 16: Der Buchstabe "y" und der Mittelstrich"
- :S_LESSON17 "Lesson 17: Die Buchstaben "ï¿½" und "ï¿½""
- :S_LESSON18 "Lesson 18: Das "ï¿½" (sprich: "Ess-zet")"
+ :S_LESSON17 "Lesson 17: Die Buchstaben "„" und """
+ :S_LESSON18 "Lesson 18: Das "á" (sprich: "Ess-zet")"
  :S_LESSON19 "Lesson 19: GROSSSCHREIBUNG"
  :S_LESSON20 "Lesson 20: Linux - meine Freude"
  :S_LESSON21 "Lesson 21: Das Internet"
@@ -1995,13 +2188,14 @@ M: "tipptrainer 0.4 lessons"
  :S_LESSON23 "Lesson 23: Gedicht"
  :S_LESSON24 "Lesson 24: Die Zeichen "<" und ">""
  :S_LESSON25 "Lesson 25: Die 1, das ! und das ?"
- :S_LESSON26 "Lesson 26: 5 8 - Prozent "%" und Klammer auf "(""
- :S_LESSON27 "Lesson 27: 6 7 - Kaufmanns-und "&" und Slash "/" "
- :S_LESSON28 "Lesson 28: 4 9 - Dollarzeichen "$" und Klammer zu ")""
- :S_LESSON29 "Lesson 29: 3 0 - Paragraph "ï¿½" und Gleichheitszeichen "=""
- :S_LESSON30 "Lesson 30: 2 und Anfï¿½hrungsstriche "" (=Gï¿½nsefï¿½ï¿½chen)"
- :S_LESSON31 "Lesson 31: Sonderzeichen ^ und ï¿½ ï¿½ und `"
+ :S_LESSON26 "Lesson 26: 2 und Anfhrungsstriche "" (=G„nsefáchen)"
+ :S_LESSON27 "Lesson 27: 5 8 - Prozent "%" und Klammer auf "(""
+ :S_LESSON28 "Lesson 28: 6 7 - Kaufmanns-und "&" und Slash "/""
+ :S_LESSON29 "Lesson 29: 4 9 - Dollarzeichen "$" und Klammer zu ")""
+ :S_LESSON30 "Lesson 30: 3 0 - Paragraph "õ" und Gleichheitszeichen "=""
+ :S_LESSON31 "Lesson 31: Sonderzeichen ø und die Akzente"
  :S_LESSON32 "Lesson 32: Sonderzeichen + * # '"
- :S_LESSON33 "Lesson 33: Sitzung (ein ï¿½bungstext mit "Gï¿½nsefï¿½ï¿½chen")"
+ :S_LESSON33 "Lesson 33: Sitzung (ein šbungstext mit "G„nsefáchen")"
  :S_LESSON34 "Lesson 34: <Tab> und <Backspace>"
- :S_LESSON35 "Lesson 35: Die Drittbelegung: |@ï¿½ï¿½{[]}\~"
+ :S_LESSON35 "Lesson 35: Die Drittbelegung: |@ıü{[]}\~"
+ :S_LESSON36 "Lesson 36: Fertig: Ein tipptrainerspezfischer šbungstext"

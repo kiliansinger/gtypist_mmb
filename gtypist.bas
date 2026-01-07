@@ -14,13 +14,33 @@
 'You should have received a copy of the GNU General Public License
 'along with this program; if not, write to the Free Software
 'Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-MODE 1
+
+Open "gtypist_cp858.typ" For input As #1
+'Open "mini.typ" For input As #1
+'Open "ttde_cp858.typ" For input As #1
+'Open "ktes3_cp858.typ" For input As #1
+'Open "gtypist.typ" For input As #1
+
+MODE 3
+textcol=RGB(255,255,255)
+bancol=RGB(0,255,255)
+backcol=RGB(0,0,0)
+errcol=RGB(255,0,0)
+Color textcol,backcol
 'MODE 2
+'using codepage 858 encoding
+'for f in *.typ; do echo "${f}";iconv -f utf8 -t cp858 "${f}" > "$(basename ${f} .typ)"_cp858.typ ;done
+'change input file to convert from ansi with:  iconv -f WINDOWS-1252 -t CP858 ttde.typ > ttde_cp850.typ
+'change unput file to convert from utf with: iconv -f utf8 -t cp858 ttde.typ > ttde_cp850b.typ
 Font 8
 GoTo ll
+
+For n=32 To 255
+Print n,Chr$(n)," ";
+Next
 l:
 a= Asc(Inkey$)
-If a<>0 Then Print a,Chr$(a)
+If a<>0 Then Print a,Chr$(a),KeyDown(7)
 GoTo l
 ll:
 Dim integer maxcy=MM.VRES\MM.Info(fontheight)
@@ -33,7 +53,7 @@ instructionslen=0
 Dim lines(50) As string
 Dim lineshpos(50) As integer
 Function stripdqm$(s As string)
-  local txt$
+  Local txt$
   txt$=s
   If Left$(s,1)=Chr$(34) Then txt$=Mid$(txt$,2)
   If Right$(s,1)=Chr$(34) Then txt$=Mid$(txt$,1,Len(txt$)-1)
@@ -55,7 +75,7 @@ Function trimlr$(s As string)
   trimlr$=trimr$(triml$(s))
 End Function
 Function centertxt$(s As string)
-   local txt$,txt2$
+   Local txt$,txt2$
    txt$=trimlr$(s)
    txt2$=""
    If maxcx>Len(txt$) Then
@@ -67,7 +87,7 @@ Function centertxt$(s As string)
 End Function
 
 Function findlabel%(label$)
-  local a$
+  Local a$
   currloc=Loc(#1)
   Seek #1,1
   Do While Not Eof(#1)
@@ -92,9 +112,6 @@ Function findlabel%(label$)
 '  next
 '  findlabel%=-1
 End Function
-'Open "mini.typ" For input As #1
-Open "ttde.typ" For input As #1
-'Open "gtypist.typ" For input As #1
 'get all jump labels
 
 labelcnt=0
@@ -119,7 +136,7 @@ lastlabelcnt=0
 lastlabel(lastlabelcnt)=1 ' "" stands for beginning
 lastlabelcnt=lastlabelcnt+1
 lastpos=1
-redrawpos=1' the concept of redrawpos is broken 
+redrawpos=1' the concept of redrawpos is broken
 menupos=0
 esccnt=0
 yes=0
@@ -144,8 +161,8 @@ Do While Not Eof(#1)
     Continue do 'labels
   End If
   'goto: G:LABELNAME
-  If Left$(a$,2)="G:" or Left$(a$,2)="Y:" or Left$(a$,2)="N:" Then
-    
+  If Left$(a$,2)="G:" Or Left$(a$,2)="Y:" Or Left$(a$,2)="N:" Then
+
     labnum=findlabel%(trimr$(Mid$(a$,3)))
 
     If labnum=0 Then
@@ -155,39 +172,39 @@ Do While Not Eof(#1)
       'lastlabel$(lastlabelcnt)=trimr$(mid$(a$,3))
       'lastlabelcnt=lastlabelcnt+1
       ''currentlabel$=trimr$(Mid$(a$,3))
-      if Left$(a$,2)="G:" or (yes=1 and Left$(a$,2)="Y:") or (no=1 and Left$(a$,2)="N:") then
+      If Left$(a$,2)="G:" Or (yes=1 And Left$(a$,2)="Y:") Or (no=1 And Left$(a$,2)="N:") Then
         Seek #1,labnum
-      end if
+      End If
     End If
     Continue do
   End If
   'errorrate:  E:<value>%  until the next E:...
   '            E:<value>%* for all following drills
    If Left$(a$,2)="E:" Then
-     nexterrorrate=val(mid$(a$,3,instr(a$,"%")-3))
-     if right$(a$,1)="*" then errorrate=nexterrorrate
+     nexterrorrate=Val(Mid$(a$,3,Instr(a$,"%")-3))
+     If Right$(a$,1)="*" Then errorrate=nexterrorrate
      Continue do
-   end if
-   'fail label:  F:<label> 
+   End If
+   'fail label:  F:<label>
   '              F:<label>* for all following drills
    If Left$(a$,2)="F:" Then
-      
-     if right$(a$,1)="*" then
-       nextfaillabel$=mid$(a$,3,len(a$)-3)
+
+     If Right$(a$,1)="*" Then
+       nextfaillabel$=Mid$(a$,3,Len(a$)-3)
        faillabel$=nextfaillabel$
-     else
-       nextfaillabel$=mid$(a$,3,len(a$)-2)
-     end if
+     Else
+       nextfaillabel$=Mid$(a$,3,Len(a$)-2)
+     End If
      Continue do
-   end if
+   End If
   'banner: B:...
   If Left$(a$,2)="B:" Then
-    CLS
+    CLS backcol
     'redrawpos=lastpos
-    Color RGB(0,0,0),RGB(145, 196, 231)
+    Color backcol,bancol
     banner$=centertxt$(Mid$(a$,3))
     Print banner$
-    Color RGB(255,255,255),RGB(0,0,0)
+    Color textcol,backcol
     Continue do
   End If
   'functionkey: K:fkeynumber:label  depracated=>ignored
@@ -195,11 +212,11 @@ Do While Not Eof(#1)
   'Tutorial: T:...
   '           :...
   If Left$(a$,2)="T:" Then
-    CLS
-    Color RGB(0,0,0),RGB(145, 196, 231)
+    CLS backcol
+    Color backcol,bancol
 
     Print banner$
-    Color RGB(255,255,255),RGB(0,0,0)
+    Color textcol,backcol
     Print Mid$(a$,3)
     Do While Not Eof(#1)
       lastpos=Loc(#1)
@@ -237,20 +254,20 @@ Do While Not Eof(#1)
   If Left$(a$,2)="Q:" Then
     yes=0
     no=0
-    Print @(0,MM.VRES-2*MM.Info(fontheight),2) centertxt$(mid$(a$,3))
+    Print @(0,MM.VRES-2*MM.Info(fontheight),2) centertxt$(Mid$(a$,3))
     Do
       Do
         pressed=Asc(Inkey$)
       Loop Until pressed<>0
-      'return space    
-      If pressed=asc("y") or pressed=asc("n") or pressed=asc("Y") or pressed=asc("N") Then
-          if pressed=asc("y") or pressed=asc("Y") then
+      'return space
+      If pressed=Asc("y") Or pressed=Asc("n") Or pressed=Asc("Y") Or pressed=Asc("N") Then
+          If pressed=Asc("y") Or pressed=Asc("Y") Then
             yes=1
-          else
+          Else
             no=1
-          end if
-          exit do
-          
+          End If
+          Exit Do
+
       End If
     Loop
     Continue do
@@ -263,11 +280,11 @@ Do While Not Eof(#1)
   '             :...
   If Left$(a$,2)="I:" Then
     'redrawpos=lastpos
-    CLS
-    Color RGB(0,0,0),RGB(145, 196, 231)
+    CLS backcol
+    Color backcol,bancol
 
     Print banner$
-    Color RGB(255,255,255),RGB(0,0,0)
+    Color textcol,backcol
     instructionslen=0
     instructions(instructionslen)=Mid$(a$,3)
     Print instructions(instructionslen)
@@ -289,6 +306,7 @@ Do While Not Eof(#1)
   End If
 
   If UCase$(Left$(a$,2))="D:" Or UCase$(Left$(a$,2))="S:" Then
+    deadkey=0
     redrawpos=lastpos
   'problem B and I needs to be stored also redrawpos dos not work
   'as we have
@@ -296,13 +314,13 @@ Do While Not Eof(#1)
   'I:...
   'S:...CLS but keep banner and intro
   'S:...CLS but keep banner and intro
-    CLS
-    Color RGB(0,0,0),RGB(145, 196, 231)
+    CLS backcol
+    Color backcol,bancol
     Print banner$
-    Color RGB(255,255,255),RGB(0,0,0)
-    for i=0 to instructionslen-1
+    Color textcol,backcol
+    For i=0 To instructionslen-1
       Print instructions(i)
-    next
+    Next
     Print
 
     txtlen=0
@@ -330,7 +348,7 @@ Do While Not Eof(#1)
    linecnt=0
    linetype=0
    lines(linecnt)=Mid$(a$,3)
-   txtlen=txtlen+len(lines(linecnt))
+   txtlen=txtlen+Len(lines(linecnt))
 
 
    Print Mid$(a$,3)
@@ -348,7 +366,7 @@ Do While Not Eof(#1)
       Line Input #1,a$
       If Left$(a$,2)=" :" Then
         lines(linecnt)=Mid$(a$,3)
-        txtlen=txtlen+len(lines(linecnt))
+        txtlen=txtlen+Len(lines(linecnt))
 
         Print Mid$(a$,3)
         If dospeed=0 Then
@@ -421,75 +439,79 @@ Do While Not Eof(#1)
             oldtimer=Timer-600
             Continue Do
           End If
-          if pressed=10 or pressed=13) and (xpos<len(lines(linetype))) then
-            if(xpos<len(lines(linetype))) then
+          If pressed=10 Or pressed=13) And (xpos<Len(lines(linetype))) Then
+            If (xpos<Len(lines(linetype))) Then
               errorcnt=errorcnt+1
               If dospeed=0 Then
+                Color errcol
                 Print @(MM.Info(hpos),MM.Info(vpos),2) "^";
+                Color textcol
               Else
-                Print @(MM.Info(hpos),MM.Info(vpos),2) mid$(lines(linetype),xpos,1);
+                Color errcol
+                Print @(MM.Info(hpos),MM.Info(vpos),2) Mid$(lines(linetype),xpos,1);
+                Color textcol
               End If
               xpos=xpos+1
-            end if
-          end if
-          If (pressed=10 Or pressed=13) and (xpos>=len(lines(linetype))) Then
+            End If
+          End If
+          If (pressed=10 Or pressed=13) And (xpos>=Len(lines(linetype))) Then
             If Mid$(lines(linetype),xpos,1)="" Then
                 Print @(MM.Info(hpos),MM.Info(vpos),0) " ";
             End If
             linetype=linetype+1
-            if linetype>=linecnt then
-              print @(mm.hres/5*3,mm.vres-5*MM.Info(fontheight),2) "Raw speed      =  "format$(txtlen/5/(timer/60000),"%.2f")" wpm"
+            If linetype>=linecnt Then
+              Print @(MM.HRES/5*3,MM.VRES-5*MM.Info(fontheight),2) "Raw speed      =  "Format$(txtlen/5/(Timer/60000),"%.2f")" wpm"
               'word is 5 char
               'to calculate adjusted wpm we subtract errors from written words
               'as each error counts as a wrong word
-              adjusted=(txtlen-errorcnt)/5/(timer/60000)
-              if adjusted<0 then adjusted=0
-              print @(mm.hres/5*3,mm.vres-4*MM.Info(fontheight),2) "Adjusted speed =  "format$(adjusted,"%.2f")" wpm"
-              print @(mm.hres/5*3,mm.vres-3*MM.Info(fontheight),2) "with "format$(errorcnt/txtlen*100,"%.1f")"% errors"
-              
-              if practice=0 then
-                if errorcnt/txtlen*100>errorrate then
-                   num$=format$(nexterrorrate,"%.1f")
+              adjusted=(txtlen-errorcnt)/5/(Timer/60000)
+              If adjusted<0 Then adjusted=0
+              Print @(MM.HRES/5*3,MM.VRES-4*MM.Info(fontheight),2) "Adjusted speed =  "Format$(adjusted,"%.2f")" wpm"
+              Print @(MM.HRES/5*3,MM.VRES-3*MM.Info(fontheight),2) "with "Format$(errorcnt/txtlen*100,"%.1f")"% errors"
+
+              If practice=0 Then
+                If errorcnt/txtlen*100>errorrate Then
+                   num$=Format$(nexterrorrate,"%.1f")
                    ac$="Your error-rate is too high. You have to achieve "+num$+"%"
                    Print @(0,MM.VRES-2*MM.Info(fontheight),2) centertxt$(ac$)
                    Do
                      pressed=Asc(Inkey$)
-                   Loop until pressed=27 or pressed=10 or pressed=13 or pressed=32
-                  
-            
+                   Loop Until pressed=27 Or pressed=10 Or pressed=13 Or pressed=32
 
-                    'Your error-rate is too high. You have to achieve 3.0%.       
+
+
+                    'Your error-rate is too high. You have to achieve 3.0%.
                     'wait for space enter exit
                     'incase nexterrorrate
                     'You failed this test, so you need to go back to LOOP2.
-                    if nextfaillabel$<>"" then
+                    If nextfaillabel$<>"" Then
                       ac$="You failed this test, so you need to go back to "+nextfaillabel$
                       Print @(0,MM.VRES-2*MM.Info(fontheight),2) centertxt$(ac$)
                       Do
                         pressed=Asc(Inkey$)
-                      Loop until pressed=27 or pressed=10 or pressed=13 or pressed=32
+                      Loop Until pressed=27 Or pressed=10 Or pressed=13 Or pressed=32
                       esccnt=0
                       labnum=findlabel%(nextfaillabel$)
 
                       If labnum=0 Then
                         Print "label "Mid$(a$,3)" does not exists"
                         Seek #1,redrawpos
-                      else
+                      Else
                         Seek #1,labnum
-                      end if
+                      End If
                       Exit Do
-                    else 
+                    Else
                       esccnt=0
                       Seek #1,redrawpos
                       Exit Do
-                    end if
-                  end if
-              end if
-       
+                    End If
+                  End If
+              End If
+
               Print @(0,MM.VRES-2*MM.Info(fontheight),2) centertxt$("Press R to repeat, N for next exercise or E to exit")
               nexterrorrate=errorrate
               esccnt=2
-            else
+            Else
               Print @(0,lineshpos(linetype),0) "";
 
               xpos=1
@@ -503,65 +525,213 @@ Do While Not Eof(#1)
                 oldtimer=Timer-600
                 Print @(MM.Info(hpos),MM.Info(vpos),blink) "";
               EndIf
-            end if
+            End If
           End If
           If (pressed>=32 And pressed<=126) Or (pressed>=200 And pressed<=209) Then
-            'german keyboard
-            If pressed=200 Then
-              pressed=176'circ
+          'german keyboard
+            If pressed=209 Then
+              pressed=248'circ
             Else If pressed=201 Then
-              pressed=223'sz
+              pressed=225'sz
+            Else If pressed=94 Then
+              '^
+              deadkey=pressed
+              pressed=0
+            Else If pressed=96 Then
+              'accent grave
+              deadkey=pressed
+              pressed=0
             Else If pressed=202 Then
-              pressed=180'accent aigu
+              pressed=0'accent aigu
+              deadkey=239
             Else If pressed=203 Then
-              pressed=252'ue
+              pressed=129'ue
             Else If pressed=204 Then
-              pressed=220'UE
+              pressed=154'UE
             Else If pressed=205 Then
-              pressed=246'oe
+             pressed=148'oe
             Else If pressed=206 Then
-              pressed=214'OE
+              pressed=153'OE
             Else If pressed=207 Then
-              pressed=228'ae
+              pressed=132'ae
             Else If pressed=208 Then
-              pressed=196'AE
-            End If
-            If Mid$(lines(linetype),xpos,1)=Chr$(pressed) Then
-              Print @(MM.Info(hpos),MM.Info(vpos),0) Chr$(pressed);
+              pressed=142'AE
             Else
-              errorcnt=errorcnt+1
-              If dospeed=0 Then
-                Print @(MM.Info(hpos),MM.Info(vpos),2) "^";
+              If deadkey=0 Then
+                If KeyDown(7)=16 Then
+                  If pressed=Asc("e") Then
+                    'euro
+                    pressed=213
+                  Else If pressed=Asc("3") Then
+                    'small 3
+                    pressed=252
+                  Else If pressed=Asc("2") Then
+                    'small 2
+                    pressed=253
+                  Else If pressed=Asc("m") Then
+                    'small 2
+                    pressed=230
+                  End If
+                End If
               Else
-                Print @(MM.Info(hpos),MM.Info(vpos),2) Chr$(pressed);
+                'deadkey pressed previously
+                If pressed=Asc(" ") Then
+                  pressed=deadkey
+                Else If pressed=Asc("a") Then
+                  If deadkey=94 Then
+                    '^
+                    pressed=131
+                  Else If deadkey=96 Then
+                    'accent gravee
+                    pressed=133
+                  Else If deadkey=239 Then
+                    'accent aigu
+                    pressed=160
+                  End If
+                Else If pressed=Asc("A") Then
+                  If deadkey=94 Then
+                    '^
+                    pressed=182
+                  Else If deadkey=96 Then
+                    'accent gravee
+                    pressed=183
+                  Else If deadkey=239 Then
+                    'accent aigu
+                    pressed=181
+                  End If
+
+                Else If pressed=Asc("e") Then
+                    If deadkey=94 Then
+                    '^
+                    pressed=136
+                  Else If deadkey=96 Then
+                    'accent gravee
+                    pressed=138
+                  Else If deadkey=239 Then
+                    'accent aigu
+                    pressed=130
+                  End If
+                Else If pressed=Asc("E") Then
+                  If deadkey=94 Then
+                    '^
+                    pressed=210
+                  Else If deadkey=96 Then
+                    'accent gravee
+                    pressed=212
+                  Else If deadkey=239 Then
+                    'accent aigu
+                    pressed=144
+                  End If
+
+                Else If pressed=Asc("i") Then
+                  If deadkey=94 Then
+                    '^
+                    pressed=140
+                  Else If deadkey=96 Then
+                    'accent gravee
+                    pressed=141
+                  Else If deadkey=239 Then
+                    'accent aigu
+                    pressed=161
+                  End If
+                Else If pressed=Asc("I") Then
+                  If deadkey=94 Then
+                    '^
+                    pressed=215
+                  Else If deadkey=96 Then
+                    'accent gravee
+                    pressed=222
+                  Else If deadkey=239 Then
+                    'accent aigu
+                    pressed=214
+                  End If
+                Else If pressed=Asc("o") Then
+                  If deadkey=94 Then
+                    '^
+                    pressed=147
+                  Else If deadkey=96 Then
+                    'accent gravee
+                    pressed=149
+                  Else If deadkey=239 Then
+                    'accent aigu
+                    pressed=162
+                  End If
+                Else If pressed=Asc("O") Then
+                  If deadkey=94 Then
+                    '^
+                    pressed=226
+                  Else If deadkey=96 Then
+                    'accent gravee
+                    pressed=227
+                  Else If deadkey=239 Then
+                    'accent aigu
+                    pressed=224
+                  End If
+                Else If pressed=Asc("u") Then
+                  If deadkey=94 Then
+                    '^
+                    pressed=150
+                  Else If deadkey=96 Then
+                    'accent gravee
+                    pressed=151
+                  Else If deadkey=239 Then
+                    'accent aigu
+                    pressed=163
+                  End If
+                Else If pressed=Asc("U") Then
+                  If deadkey=94 Then
+                    '^
+                    pressed=234
+                  Else If deadkey=96 Then
+                    'accent gravee
+                    pressed=235
+                  Else If deadkey=239 Then
+                    'accent aigu
+                    pressed=233
+                  End If
+                End If
               End If
+              deadkey=0
             End If
-            xpos=xpos+1
-            blink=2
-            If dospeed=0 Then
-               Print @(MM.Info(hpos),MM.Info(vpos),blink) " ";
-              Print @(MM.Info(hpos)-MM.Info(fontwidth),MM.Info(vpos),blink) "";
-
-            Else
-              blink=0
-              oldtimer=Timer-600
-               Print @(MM.Info(hpos),MM.Info(vpos),blink) "";
-
-            EndIf
-
+            If pressed<>0 Then
+              If Mid$(lines(linetype),xpos,1)=Chr$(pressed) Then
+                Print @(MM.Info(hpos),MM.Info(vpos),0) Chr$(pressed);
+              Else
+                errorcnt=errorcnt+1
+                If dospeed=0 Then
+                  Color errcol
+                  Print @(MM.Info(hpos),MM.Info(vpos),2) "^";
+                  Color textcol
+                Else
+                  Color errcol
+                  Print @(MM.Info(hpos),MM.Info(vpos),2) Chr$(pressed);
+                  Color textcol
+                End If
+              End If
+              xpos=xpos+1
+              blink=2
+              If dospeed=0 Then
+                Print @(MM.Info(hpos),MM.Info(vpos),blink) " ";
+                Print @(MM.Info(hpos)-MM.Info(fontwidth),MM.Info(vpos),blink) "";
+              Else
+                blink=0
+                oldtimer=Timer-600
+                Print @(MM.Info(hpos),MM.Info(vpos),blink) "";
+              EndIf
+            End If
           End If
         End If
       Else If esccnt=2 Then
-        If pressed=Asc("r") or pressed=Asc("R") Then
+        If pressed=Asc("r") Or pressed=Asc("R") Then
           esccnt=0
           Seek #1,redrawpos
           Exit Do
         End If
-        If pressed=Asc("n") or pressed=Asc("N") Then
+        If pressed=Asc("n") Or pressed=Asc("N") Then
           esccnt=0
           Exit Do
         End If
-        If pressed=Asc("e") or pressed=Asc("E") Then
+        If pressed=Asc("e") Or pressed=Asc("E") Then
           esccnt=0
           lastlabelcnt=lastlabelcnt-1
           labnum=lastlabel(lastlabelcnt)
@@ -595,11 +765,11 @@ Do While Not Eof(#1)
   'current one, gtypist will just go to the beginning of the script.
   'If none of the previous conditions were met, gtypist will just exit
   'from the script.
-  'M only keeps the banner 
+  'M only keeps the banner
   'I is not restored
   If Left$(a$,2)="M:" Then
     menulastpos=lastpos
-    CLS
+    CLS backcol
     txt$=trimlr$(Mid$(a$,3))
     uplabel$=""
     If Left$(txt$,3)="UP=" Then
@@ -671,7 +841,7 @@ Do While Not Eof(#1)
           lastlabel(lastlabelcnt)=menulastpos
           ''currentlabel$=menulabel(menupos)
           lastlabelcnt=lastlabelcnt+1
-          redrawpos=labnum
+          menulastpos=labnum
           Seek #1,labnum
           menupos=0
         End If
@@ -681,7 +851,7 @@ Do While Not Eof(#1)
         If uplabel$<>"" Then
           If uplabel$="_EXIT" Then End
           labnum=findlabel%(uplabel$)
-          redrawpos=labnum
+          menulastpos=labnum
           Seek #1,labnum
         Else If lastlabelcnt>1 Then
           lastlabelcnt=lastlabelcnt-1
@@ -689,16 +859,18 @@ Do While Not Eof(#1)
           'if lastlabel$(lastlabelcnt)="" then end
           labnum=lastlabel(lastlabelcnt)
           'currentlabel$=lastlabel$(lastlabelcnt)
-          redrawpos=labnum
+          menulastpos=labnum
           Seek #1,labnum
           'exit do
         Else
           End
         End If
+      Else
+        Continue do
       End If
       Exit Do
     Loop
-    Seek #1,redrawpos
+    Seek #1,menulastpos
 
     Continue do
   End If
@@ -711,138 +883,109 @@ Do While Not Eof(#1)
   Input x$
 Loop
 
-
-' ibm2.bas
+' XGA_8x14mod858.bas
 ' Font type    : Full (223 characters)
 ' Font start   : CHR$(32)
-' Font size    : 9x16 pixels
-' Memory usage : 4018 bytes
+' Font size    : 8x14 pixels
+' Memory usage : 3126 bytes
 DefineFont #8
-  DF201009
-  00000000 00000000 00000000 00000000 00000000 C1830706 183060E0 00030600
-  00000000 8C193300 000040C2 00000000 00000000 00000000 C7860D00 6CD8B0F1
-  800D1B7F 00000000 181F0C18 F00126CC 3143060C C080818F 00000000 260C0000
-  30303030 C0903130 00000000 0D0E0000 D9C1C186 3366CCB8 0000C00E 18000000
-  0003060C 00000000 00000000 00000000 03030000 C0800103 06183060 00008001
-  00000000 C000030C 0C183060 00060606 00000000 00000000 F1300300 00333CFE
-  00000000 00000000 00000000 18FC60C0 0000000C 00000000 00000000 00000000
-  060C0000 00000303 00000000 00000000 00FC0100 00000000 00000000 00000000
-  00000000 06000000 00000003 00000000 20000000 30303030 00103030 00000000
-  0C0F0000 6D1B36CC 9961C3B6 00008087 00000000 80070706 183060C0 C00F060C
-  00000000 181F0000 606060C0 31606060 0000C09F 00000000 60C0181F 060CF030
-  808F3103 00000000 03030000 3163C383 03060CFC 0000C003 00000000 060C983F
-  060CF003 808F3103 00000000 0C0E0000 F103060C 3163C68C 0000808F 00000000
-  60C0983F 30303030 00060C18 00000000 181F0000 F13166CC 3163C68C 0000808F
-  00000000 66CC181F 060CF831 000F0303 00000000 00000000 00C08001 060C0000
-  00000000 00000000 80010000 000000C0 0006060C 00000000 00000000 C0C0C0C0
-  030C30C0 0000C000 00000000 03000000 7E0000F0 00000000 00000000 0C000000
-  30C00003 0C0C0C0C 0000000C 00000000 60CC181F 18306060 00030600 00000000
-  0F000000 7933668C 306EDEBC 0000800F 00000000 C6060704 C6FC1933 C0983163
-  00000000 0C3F0000 F03163C6 193366CC 0000809F 00000000 26CC0C0F C0800103
-  80871961 00000000 0D3E0000 98316386 1B3366CC 0000001F 00000000 23C68C3F
-  60D0E041 C09F1931 00000000 8C3F0000 E04123C6 183060D0 0000001E 00000000
-  26CC0C0F C6BC0103 40871963 00000000 98310000 F93366CC 3163C68C 0000C098
-  00000000 8001030F 183060C0 8007060C 00000000 81070000 3060C080 3366CC18
-  0000000F 00000000 63C68C39 6CF0E061 C09C1933 00000000 0C3C0000 80010306
-  193160C0 0000C09F 00000000 F7EFDC30 C3866DFB 60D8B061 00000000 9C310000
-  79F367CF 3163C69C 0000C098 00000000 66CC181F C68C1933 808F3163 00000000
-  0C3F0000 F03163C6 183060C0 0000001E 00000000 66CC181F C68C1933 808F376B
-  000070C0 0C3F0000 F03163C6 193366D8 0000C09C 00000000 63CC181F 0618E000
-  808F3163 00000000 DB3F0000 60C09069 060C1830 00008007 00000000 66CC9831
-  C68C1933 808F3163 00000000 D8300000 0D1B366C 0F33C386 00000003 00000000
-  366CD830 DBB60D1B C08C997F 00000000 D8300000 60E06166 30333C30 000060D8
-  00000000 336CD830 1830F030 8007060C 00000000 D83F0000 60606068 B0606060
-  0000E0DF 00000000 0103060F 3060C080 80070C18 00000000 10000000 C001070C
-  01071C70 00004080 00000000 C080010F 0C183060 80070306 00000000 181B1C10
-  000000C0 00000000 00000000 00000000 00000000 00000000 00000000 0000F807
-  00030C30 00000000 00000000 00000000 00000000 03000000 CCF830C0 C00E3366
-  00000000 0C380000 B0C10306 193366CC 0000808F 00000000 03000000 C08019E3
-  808F3160 00000000 01070000 B1E1C180 3366CC98 0000C00E 00000000 03000000
-  C0FC19E3 808F3160 00000000 0D0E0000 C0034386 183060C0 0000001E 00000000
-  03000000 CC9831B3 800F3366 00E061C6 0C380000 D8610306 193366CC 0000C09C
-  00000000 01000306 183060C0 8007060C 00000000 80010000 187000C0 0103060C
-  3063C680 000000F0 03060C38 78F0B031 C09C1936 00000000 030E0000 60C08001
-  060C1830 00008007 00000000 07000000 DBB6FD33 60DBB66D 00000000 00000000
-  98E10600 193366CC 0000C08C 00000000 03000000 C68C19E3 808F3163 00000000
-  00000000 98E10600 193366CC 0303868F 000000C0 03000000 CC9831B3 800F3366
-  007860C0 00000000 D8E10600 183060CC 0000001E 00000000 03000000 38C018E3
-  808F3106 00000000 06040000 C0E00703 0D183060 00008083 00000000 06000000
-  CC983163 C00E3366 00000000 00000000 0D1B0600 0F33C386 00000003 00000000
-  06000000 DB860D1B C0CCBF6D 00000000 00000000 98190600 191E1878 00006098
-  00000000 06000000 C68C1933 C08F3163 00E06360 00000000 30F30700 31303030
-  0000C09F 00000000 80018303 1830C0C1 C001060C 00000000 03060000 00C08001
-  060C1830 00000003 00000000 8001031C 183038C0 000E060C 00000000 9B1D0000
-  00000080 00000000 00000000 00000000 01010000 C68CB1C1 00803F63 00000000
-  0C0F0000 010326CC 0F33C280 E0638001 6C000000 C3860D1B 0000B061 00000000
-  00000000 06060600 19E30300 3160C0FC 0000808F 08000000 03800D0E CCF830C0
-  C00E3366 00000000 1F000000 C00063CC 31303030 0000C09F 30000000 0300030C
-  CCF830C0 C00E3366 00000000 071B1C00 30C00300 3366CCF8 0000C00E 00000000
-  C3030000 66C08031 C300031E 000000C0 0D0E0800 19E30380 3160C0FC 0000808F
-  00000000 03008031 C0FC19E3 808F3160 00000000 030C3000 19E30300 3160C0FC
-  0000808F 00000000 01008019 183060C0 8007060C 00000000 0C0F0C00 60C001C0
-  060C1830 00008007 30000000 0100030C 183060C0 8007060C 00000000 00000000
-  01000000 000000FF 00000000 36380000 8303000E FE8C1963 C0983163 00000000
-  00181818 8031E30F 193060F8 0000C09F 00000000 03000000 7E36EC70 E00E376C
-  00000000 8D0F0000 F963C68C 3366CC98 0000C019 08000000 03800D0E C68C19E3
-  808F3163 00000000 00000000 00C08001 060C00FC 00000000 30000000 0300030C
-  C68C19E3 808F3163 00000000 191E1800 31630680 3366CC98 0000C00E 30000000
-  0600030C CC983163 C00E3366 00000000 80310000 19330600 3163C68C 6160C08F
-  000000E0 00000000 367F0000 C3860D1B 6CD8B061 00000000 01000000 FFFFFFFF
-  FFFFFFFF 0C00FFFF 36CC0F06 C3800103 0003063F 00000000 0C1B1C00 80810786
-  393060C0 0000809F 00000000 C0C3CC30 FF30FCC3 0003060C 00000000 8C197E00
-  9811C3C7 193366DE 0000609E 07000000 8001C306 1830F8C1 0D03060C 00008083
-  0C0C0C00 30C00300 3366CCF8 0000C00E 06000000 01000606 183060C0 8007060C
-  00000000 0C0C0C00 19E30300 3163C68C 0000808F 0C000000 06000C0C CC983163
-  C00E3366 00000000 9B1D0000 98E10680 193366CC 0000C08C 6E760000 67CE1800
-  CEBCF9B3 C0983163 00000000 0D1B1E00 F801E083 00000000 00000000 1C000000
-  86071833 0CF03063 00001E66 00000000 060C0000 C0800100 3163C0C0 0000808F
-  00000000 00000000 C080F903 00003060 00000000 00000000 F8030000 0103060C
-  00000080 60000000 664C1830 60606060 C0C02667 0000F8C0 18306000 6060664C
-  25676660 3060C087 00000000 00000306 3C3060C0 00030F1E 00000000 00000000
-  B1B10100 001B6CB0 00000000 00000000 06000000 6C6CB0C1 0000006C 00000000
-  0D1B1C00 00008083 00000000 00000000 55550000 55455515 55545551 45551555
-  54555155 06363800 E0430606 00000000 00000000 38000000 04030236 0000C0C1
-  00000000 00000000 06060600 00000000 00000000 00000000 0C180000 87010306
-  18F061C0 0103060C 3060C080 860D1B36 D9B061C3 0D1B36EC B061C386 00006CD8
-  00000000 36FC0100 C3860D1B 6CD8B061 00000000 61C00700 060C18F0 C0800103
-  1B363060 67C3860D 36EC19B0 C3860D1B 6CD8B061 860D1B36 D8B061C3 0D1B366C
-  B061C386 00006CD8 07000000 36EC19F0 C3860D1B 6CD8B061 860D1B36 19B067C3
-  000000FC 00000000 1B360000 61C3860D 00FCD9B0 00000000 00000000 03060C18
-  61C08701 000000F0 00000000 00000000 00000000 18F00100 0103060C 3060C080
-  03060C18 60C08001 0000003F 00000000 0C180000 80010306 00FF61C0 00000000
-  00000000 00000000 01000000 060C18FF C0800103 0C183060 80010306 183F60C0
-  0103060C 3060C080 02006300 19638303 3163FE8C 0000C098 0C180000 80010306
-  18FF61C0 0103060C 3060C080 03060C18 60FC8001 060C183F C0800103 1B363060
-  61C3860D 366FD8B0 C3860D1B 6CD8B061 860D1B36 C0BC61C3 0000007F 00000000
-  00000000 01000000 366FC0FC C3860D1B 6CD8B061 860D1B36 01BC67C3 000000FF
-  00000000 00000000 07000000 36EF01FC C3860D1B 6CD8B061 860D1B36 C0BC61C3
-  0D1B366F B061C386 00006CD8 07000000 00FF01FC 00000000 00000000 860D1B36
-  01BC67C3 0D1B36EF B061C386 0C186CD8 87010306 00FF01FC 00000000 00000000
-  860D1B36 D9B061C3 000000FF 00000000 00000000 07000000 18FF01FC 0103060C
-  3060C080 00000000 01000000 0D1B36FF B061C386 1B366CD8 61C3860D 007FD8B0
-  00000000 00000000 03060C18 60FC8001 0000003F 00000000 00000000 00000000
-  183F60FC 0103060C 3060C080 0F006300 1933668C 3163C68C 0000808F 1B360000
-  61C3860D 36FFD9B0 C3860D1B 6CD8B061 03060C18 61FC8701 060C18FF C0800103
-  0C183060 80010306 00F061C0 00000000 00000000 00000000 00000000 060C183F
-  C0800103 FFFF3060 FFFFFFFF FFFFFFFF FFFFFFFF FFFFFFFF 18006300 193366CC
-  3163C68C 0000808F 78F00000 070F1E3C F0E0C183 0F1E3C78 E0C18307 E1C3870F
-  3E7CF8F0 C3870F1F 7CF8F0E1 00001F3E C68C191E C6986163 80993163 00000000
-  00000000 71B30300 376CD8B0 0000C00E FFFF0000 FFFFFFFF 0000FEFF 00000000
-  00000000 983F0000 010366CC 3060C080 00000018 00000000 E30F0000 6CD8B061
-  800D1B36 00000000 00330000 30C00300 3366CCF8 0000C00E 00000000 03000000
-  D8B061F3 000E366C 00000000 00000000 98316306 183E66CC 00000C0C 00000000
-  66070000 183060E0 0003060C 00000000 0F000000 98E181C1 061E66CC 0000C00F
-  00000000 C6060700 C6FC1933 00071B63 00000000 0D0E0000 1833668C 1B366CD8
-  0000C01D 00000000 80018607 66CCF860 80871933 00000000 00000000 6DF30300
-  003FDBB6 00000000 00000000 63600000 F3B66DF3 0018183F 00000000 06070000
-  F0010306 0C3060C0 00008003 00000000 668C0F00 C68C1933 C0983163 00000000
-  00000000 0100E00F 3F0000FC 00000080 00000000 80010000 1830F8C1 E01F0000
-  00000000 06000000 18608001 00181818 0000C00F 00000000 81810100 18608081
-  C00F0006 00000000 83030000 60C0B061 060C1830 C0800103 0C183060 80010306
-  D83060C0 000E366C 00000000 80310000 19E30300 3163C68C 0000808F 00000000
-  03000000 760070B3 0000006E 00000000 48042211 44201281 04221188 20128148
-  00008844 00000000 18300000 00000000 00000000 00000000 00000000 00001800
-  00000000 07000000 C0800183 6CD83160 80030F36 00000000 00330000 31630600
-  3366CC98 0000C00E 3BDD0000 D3ED4EB7 DDEE74BB ED4EB73B EE74BBD3 03060C18
-  60C08001 060C1830 C0800103 00003060
+  DF200E08
+  00000000 00000000 00000000 00000000 F0F0F060 60006060 00000060 66666600
+  00000024 00000000 00000000 6CFE6C6C 6CFE6C6C 0000006C C67C1818 067CC0C2
+  187CC686 00000018 C6C20000 6630180C 000000C6 6C380000 DC76386C 0076CCCC
+  30000000 00303030 00000000 00000000 60300000 C0C0C0C0 003060C0 00000000
+  303060C0 60303030 000000C0 00000000 3CFF3C66 00000066 00000000 18180000
+  0018187E 00000000 00000000 00000000 C0606060 00000000 00000000 000000FE
+  00000000 00000000 00000000 00C0C000 00000000 180C0602 80C06030 00000000
+  C67C0000 E6F6DECE 007CC6C6 00000000 18783818 18181818 0000007E C67C0000
+  30180C06 00FEC660 00000000 0606C67C C606063C 0000007C 1C0C0000 FECC6C3C
+  001E0C0C 00000000 C0C0C0FE C60606FC 0000007C 60380000 C6FCC0C0 007CC6C6
+  00000000 0C06C6FE 30303018 00000030 C67C0000 C67CC6C6 007CC6C6 00000000
+  C6C6C67C 0C06067E 00000078 C0000000 000000C0 0000C0C0 00000000 00606000
+  60600000 000000C0 0C060000 30603018 00060C18 00000000 7E000000 007E0000
+  00000000 30600000 0C060C18 00603018 00000000 0CC6C67C 18001818 00000018
+  C67C0000 DEDEDEC6 007CC0DC 00000000 C66C3810 C6C6FEC6 000000C6 66FC0000
+  667C6666 00FC6666 00000000 C0C2663C 66C2C0C0 0000003C 6CF80000 66666666
+  00F86C66 00000000 686266FE 66626878 000000FE 66FE0000 68786862 00F06060
+  00000000 C0C2663C 66C6DEC0 0000003A C6C60000 C6FEC6C6 00C6C6C6 00000000
+  1818183C 18181818 0000003C 0C1E0000 0C0C0C0C 0078CCCC 00000000 6C6C66E6
+  666C6C78 000000E6 60F00000 60606060 00FE6662 00000000 FEFEEEC6 C6C6C6D6
+  000000C6 E6C60000 CEDEFEF6 00C6C6C6 00000000 C6C66C38 6CC6C6C6 00000038
+  66FC0000 607C6666 00F06060 00000000 C6C6C67C 7CDED6C6 00000E0C 66FC0000
+  6C7C6666 00E66666 00000000 60C6C67C C6C60C38 0000007C 7E7E0000 1818185A
+  003C1818 00000000 C6C6C6C6 C6C6C6C6 0000007C C6C60000 C6C6C6C6 0010386C
+  00000000 C6C6C6C6 7CFED6D6 0000006C C6C60000 3838386C 00C6C66C 00000000
+  66666666 1818183C 0000003C C6FE0000 6030188C 00FEC6C2 00000000 3030303C
+  30303030 0000003C C0800000 1C3870E0 0002060E 00000000 0C0C0C3C 0C0C0C0C
+  0000003C C66C3810 00000000 00000000 00000000 00000000 00000000 00FF0000
+  18306000 00000000 00000000 00000000 78000000 CCCC7C0C 00000076 60E00000
+  666C7860 007C6666 00000000 7C000000 C6C0C0C6 0000007C 0C1C0000 CC6C3C0C
+  0076CCCC 00000000 7C000000 C6C0FEC6 0000007C 361C0000 30783032 00783030
+  00000000 76000000 7CCCCCCC 0078CC0C 60E00000 66766C60 00E66666 00000000
+  38001818 18181818 0000003C 06060000 06060E00 66660606 0000003C 666060E0
+  666C786C 000000E6 18380000 18181818 003C1818 00000000 EC000000 D6D6D6FE
+  000000C6 00000000 6666DC00 00666666 00000000 7C000000 C6C6C6C6 0000007C
+  00000000 6666DC00 60607C66 000000F0 76000000 7CCCCCCC 001E0C0C 00000000
+  6676DC00 00F06060 00000000 7C000000 C61C70C6 0000007C 30100000 3030FC30
+  001C3630 00000000 CC000000 CCCCCCCC 00000076 00000000 66666600 00183C66
+  00000000 C6000000 FED6D6C6 0000006C 00000000 386CC600 00C66C38 00000000
+  C6000000 7EC6C6C6 00F80C06 00000000 18CCFE00 00FE6630 00000000 1818180E
+  18181870 0000000E 30300000 30303030 00303030 00000000 18181870 1818180E
+  00000070 DC760000 00000000 00000000 00000000 38100000 FEC6C66C 00000000
+  663C0000 C2C0C0C2 060C3C66 0000007C CC00CCCC CCCCCCCC 00000076 30180C00
+  FEC67C00 007CC6C0 10000000 78006C38 CCCC7C0C 00000076 CCCC0000 7C0C7800
+  0076CCCC 60000000 78001830 CCCC7C0C 00000076 386C3800 7C0C7800 0076CCCC
+  00000000 663C0000 0C3C6660 00003C06 6C381000 FEC67C00 007CC6C0 00000000
+  7C00CCCC C6C0FEC6 0000007C 18306000 FEC67C00 007CC6C0 00000000 38006666
+  18181818 0000003C 663C1800 18183800 003C1818 60000000 38001830 18181818
+  0000003C 10C6C600 C6C66C38 00C6C6FE 6C380000 6C380038 C6FEC6C6 000000C6
+  FE00180C 78786266 00FE6662 00000000 76CC0000 D8D87E36 0000006E 6C3E0000
+  CCFECCCC 00CECCCC 10000000 7C006C38 C6C6C6C6 0000007C C6C60000 C6C67C00
+  007CC6C6 60000000 7C001830 C6C6C6C6 0000007C CC783000 CCCCCC00 0076CCCC
+  60000000 CC001830 CCCCCCCC 00000076 C6C60000 C6C6C600 0C067EC6 C6000078
+  C66C38C6 6CC6C6C6 00000038 00C6C600 C6C6C6C6 007CC6C6 00000000 7C000000
+  E6F6DECE 0000007C 646C3800 6060F060 00FCE660 00000000 DE4C6E3A EC64F6D6
+  000000B8 00000000 18183C66 0000663C 0E000000 1818181B 1818187E 0070D818
+  60301800 7C0C7800 0076CCCC 0C000000 38003018 18181818 0000003C 60301800
+  C6C67C00 007CC6C6 18000000 CC006030 CCCCCCCC 00000076 DC760000 6666DC00
+  00666666 DC760000 F6E6C600 C6CEDEFE 000000C6 6C6C3C00 007E003E 00000000
+  38000000 00386C6C 0000007C 00000000 30300000 60303000 007CC6C6 00000000
+  00000000 C0C0C0FE 00000000 B2443800 AAB2BAAA 003844AA C0000000 D8CCC6C0
+  86DC6030 003E180C C6C0C000 6630D8CC 063E9ECE 00000006 60006060 F0F0F060
+  00000060 00000000 6CD86C36 00000036 00000000 6CD80000 00D86C36 00000000
+  44114411 44114411 44114411 AA554411 AA55AA55 AA55AA55 AA55AA55 77DD77DD
+  77DD77DD 77DD77DD C0C077DD C0C0C0C0 C0C0C0C0 C0C0C0C0 18181818 F8181818
+  18181818 C0601818 C66C3810 C6C6FEC6 000000C6 3800C67C FEC6C66C 00C6C6C6
+  060C0000 C66C3810 C6C6FEC6 000000C6 92443800 AAA2A2AA 00384492 36360000
+  F6363636 3636F606 36363636 D8D8D8D8 D8D8D8D8 D8D8D8D8 0000D8D8 FE000000
+  3636F606 36363636 36363636 FE06F636 00000000 18000000 60663C18 1C3C6660
+  00000018 3C666600 7E187E18 00181818 00000000 00000000 1818F800 18181818
+  C0C0C0C0 F8C0C0C0 00000000 18180000 18181818 0000FF18 00000000 00000000
+  FF000000 18181818 C0C01818 C0C0C0C0 C0C0F8C0 C0C0C0C0 00000000 FF000000
+  00000000 18180000 18181818 1818FF18 18181818 00DC7600 7C0C7800 0076CCCC
+  DC760000 C66C3800 C6C6FEC6 000000C6 D8D8D8D8 FCC0DCD8 00000000 00000000
+  FC000000 D8D8DCC0 D8D8D8D8 36363636 FF00F736 00000000 00000000 FF000000
+  3636F700 36363636 D8D8D8D8 DCC0DCD8 D8D8D8D8 0000D8D8 FF000000 0000FF00
+  00000000 36363636 F700F736 36363636 00003636 7CC60000 7CC6C6C6 000000C6
+  70D80000 CC7C0CD8 0078CCCC 00000000 66666CF8 6C6666F6 000000F8 FE006C38
+  78786266 00FE6662 C6000000 6266FE00 66627878 000000FE FE001830 78786266
+  00FE6662 00000000 663C0000 66F860F8 0000003C 3C00180C 18181818 003C1818
+  663C0000 18183C00 18181818 0000003C 3C006600 18181818 003C1818 18180000
+  18181818 0000F818 00000000 00000000 F8000000 C0C0C0C0 FFFFC0C0 FFFFFFFF
+  FFFFFFFF FFFFFFFF 00000000 FF000000 FFFFFFFF 0000FFFF 18181818 18181800
+  00000018 3C00180C 18181818 003C1818 FFFF0000 FFFFFFFF 000000FF 00000000
+  38003018 C6C6C66C 00386CC6 00000000 C67C0000 C6C6FCC6 00C0C0FC 38006C38
+  C6C6C66C 00386CC6 18300000 C66C3800 6CC6C6C6 00000038 DC760000 C6C67C00
+  007CC6C6 DC760000 C66C3800 6CC6C6C6 00000038 00000000 66666666 C060607C
+  00000000 7C6060F0 7C666666 00F06060 F0000000 66667C60 00F0607C 30180000
+  C6C6C600 C6C6C6C6 0000007C C6006C38 C6C6C6C6 007CC6C6 18300000 C6C6C600
+  C6C6C6C6 0000007C 30180000 C6C6C600 0C067EC6 180C00F8 66666600 1818183C
+  0000003C 000000FF 00000000 00000000 18000000 00006030 00000000 00000000
+  00000000 00FE0000 00000000 00000000 7E181800 00001818 000000FF 00000000
+  00000000 00FF0000 600000FF 789C3690 9ECE6630 0006063E DB7F0000 1B7BDBDB
+  001B1B1B 3C000000 3C306066 0C3C6666 003C6606 18000000 007E0018 00001818
+  00000000 00000000 00000000 007C060C 6C6C3800 00000038 00000000 C6000000
+  00000000 00000000 00000000 00000000 C0000000 00000000 30000000 30303070
+  00000078 00000000 10D87000 00F09830 00000000 70000000 C86030D8 000000F8
+  00000000 00000000 7C7C7C7C 00007C7C 00000000
 End DefineFont
